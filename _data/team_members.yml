@@ -9,10 +9,10 @@
   education4: 2014-2016, Postdoctoral Fellow, University of California, Berkeley
   education5: 2010-2014, Ph.D., Environmental Engineering, Faculty of Engineering, The University of Hong Kong
 
-- name: a
-  photo: Jiasen.png
-  info: Postdoc, started Oct 2020
-  email: niu@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD Peking University
-  education2: BSc Jilin University
+# - name: a
+#   photo: Jiasen.png
+#   info: Postdoc, started Oct 2020
+#   email: niu@physics.leidenuniv.nl
+#   number_educ: 2
+#   education1: PhD Peking University
+#   education2: BSc Jilin University
