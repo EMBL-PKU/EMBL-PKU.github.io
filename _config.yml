@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The EMBL-PKU Lab
+title: The PKU-EMBL Lab
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the EMBL-PKU Lab.
+  Website of the PKU-EMBL Lab.
 baseurl: ""
 url: ""
 
@@ -26,8 +26,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 
 # Markdown Processing
 kramdown:

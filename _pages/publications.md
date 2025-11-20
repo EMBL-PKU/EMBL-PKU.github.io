@@ -1,17 +1,16 @@
 ---
-title: EMBL-PKU Lab - Publications
+title: PKU-EMBL Lab - Publications
 layout: gridlay
-excerpt: "EMBL-PKU Lab -- Publications"
+excerpt: "PKU-EMBL Lab -- Publications"
 sitemap: false
 permalink: /publications/
 ---
-
 
 # Publications
 
 {% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{{ publi.title }} <br />
+<em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}

@@ -1,16 +1,15 @@
 ---
-title: "EMBL-PKU Lab - Research"
+title: "PKU-EMBL Lab - Research"
 layout: textlay
-excerpt: "EMBL-PKU Lab -- Research"
+excerpt: "PKU-EMBL Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-Our overarching goal is to explore and understand 
+Our overarching goal is to explore and understand
 
 Here are some themes and techniques that we currently work on:
 
-**Area 1** 
-
+**Area 1**
