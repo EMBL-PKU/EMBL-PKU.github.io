@@ -1,13 +1,13 @@
 ---
-title: "EMBL-PKU Lab - Pictures"
+title: "PKU-EMBL Lab - Pictures"
 layout: piclay
-excerpt: "EMBL-PKU Lab -- Pictures"
+excerpt: "PKU-EMBL Lab -- Pictures"
 permalink: /pictures/
 ---
 
 # Pictures
-<!-- Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st-andrews) -->
 
+<!-- Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st-andrews) -->
 
 ## Viedo
 
@@ -26,7 +26,6 @@ permalink: /pictures/
 	   <source src="/images/EMBL.mp4" type="video/mp4"></source></video>
     </body>
 </html>
-
 
 <!-- <iframe width="100" height="100" src="/images/EMBL.mp4" frameborder="0" allowfullscreen></iframe> -->
 
@@ -73,6 +72,3 @@ permalink: /pictures/
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/WebpageLeiden_red.jpg" width="60%" >
 </figure> -->
-
-
-
