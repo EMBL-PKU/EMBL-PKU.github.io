@@ -34,6 +34,14 @@
   number_educ: 1
   education1: 2023-present, Mphil Student, School of Environment and Energy, Peking University
 
+- name: Chang Wen
+  photo: changwen.jpg
+  info: Mphil, started Sept. 2024
+  email:
+  number_educ: 2
+  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
+  education2: 2020-2024, BEng. Environmental Engineering, College of The Environment and Ecology, Xiamen University
+
 - name: Xinya Jiang
   photo: xinya.jpg
   info: Mphil, started Sept. 2024
