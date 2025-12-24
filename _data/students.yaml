@@ -5,12 +5,20 @@
   number_educ: 1
   education1: 2021-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
+- name: Na Wang
+  photo: nawang.jpg
+  info: Ph.D. Candidate, started Sept. 2022
+  email:
+  number_educ: 1
+  education1: 2022-present, Ph.D. Candidate, University of Chinese Academy of Sciences
+
 - name: Nan Dong
   photo: dongnan.jpg
   info: Ph.D. Candidate, started Sept. 2024
   email:
-  number_educ: 1
-  education1: 2024-present, Ph.D. Candidate, University of Chinese Academy of Sciences
+  number_educ: 2
+  education1: 2024-present, Ph.D. Candidate, School of Environment and Energy, Peking University
+  education2: 2021-2024, M.S. Environmental Engineering, Shenzheng University
 
 - name: Lin Cheng
   photo: lincheng.jpg
@@ -49,6 +57,13 @@
   number_educ: 2
   education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
   education2: 2020-2024, BEng. Environmental Engineering, China Agricultural University
+
+- name: Runzhi Cao
+  photo: runzhi.jpg
+  info: Mphil, started Sept. 2024
+  email:
+  number_educ: 1
+  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
 
 - name: Anjie Li
   photo: anjie.jpg
@@ -111,3 +126,10 @@
   email:
   number_educ: 1
   education1: 2022-present, B.S. Life Science, Shandong University
+
+- name: Chunying Zheng
+  photo: chunying.jpg
+  info: Mphil, started Sept. 2026
+  email:
+  number_educ: 1
+  education1: 2022-present, BEng. Environmental Engineering, South China Normal University
