@@ -1,3 +1,8 @@
+- title: For a complete list of publications, please visit Google Scholar profile.
+  link:
+    url: https://scholar.google.com/citations?user=Z1f0sHAAAAAJ&hl=en
+    display: Google Scholar
+  highlight: 1
 - title: "BASALT refines binning from metagenomic data and increases resolution of genome-resolved metagenomic analysis"
   authors: Z Qiu#, L Yuan, C Lian, B Lin, J Chen, R Mu, X Qiao, L Zhang, Z Xu, L Fan, Y Zhang, S Wang, J Li, H Cao, B Li, B Chen, C Song, Y Liu, L Shi, Y Tian, J Ni, T Zhang, J Zhou, W Zhuang, K Yu#*
   link:
@@ -48,10 +53,8 @@
   highlight: 1
 
 - title: "Unravelling biosynthesis and biodegradation potentials of microbial dark matters in hypersaline lakes"
-  authors:  Z Qiu#, Y Zhu, Q Zhang, X Qiao, R Mu, Z Xu, Y Yan, F Wang, T Zhang, W Zhuang, K Yu*
+  authors: Z Qiu#, Y Zhu, Q Zhang, X Qiao, R Mu, Z Xu, Y Yan, F Wang, T Zhang, W Zhuang, K Yu*
   link:
     url: https://www.sciencedirect.com/science/article/pii/S2666498423001242
     display: Environmental Science and Ecotechnology, 2024, 20:100359
   highlight: 1
-
-
