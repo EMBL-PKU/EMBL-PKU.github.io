@@ -190,7 +190,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Former visitoring, Ph.D/MPhil students and Postdoctoral Researhers
+## Former visiting, Ph.D/MPhil students and Postdoctoral Researhers
 
 <div class="row">
 
