@@ -1,60 +1,68 @@
-- title: For a complete list of publications, please visit Google Scholar profile.
+- title: PKU EMBL Comprehensive List of Publications & Citation Metrics
+  authors: Please View Full Profile on Google Scholar
   link:
-    url: https://scholar.google.com/citations?user=Z1f0sHAAAAAJ&hl=en
+    url: https://scholar.google.com/citations?hl=en&user=FunfWVAAAAAJ
     display: Google Scholar
   highlight: 1
 - title: "BASALT refines binning from metagenomic data and increases resolution of genome-resolved metagenomic analysis"
   authors: Z Qiu#, L Yuan, C Lian, B Lin, J Chen, R Mu, X Qiao, L Zhang, Z Xu, L Fan, Y Zhang, S Wang, J Li, H Cao, B Li, B Chen, C Song, Y Liu, L Shi, Y Tian, J Ni, T Zhang, J Zhou, W Zhuang, K Yu#*
   link:
     url: https://www.nature.com/articles/s41467-024-46539-7
-    display: Nature Communications, 2024, 15:2179
+    display: Nature Communications, 2024
   highlight: 1
 
+- title: "Large scale exploration reveals rare taxa crucially shape microbial assembly in alkaline lake sediments"
+  authors: Zhiguang Qiu#, Shuhang He#, Chun-Ang Lian, Xuejiao Qiao, Qing Zhang, Ciqin Yao, Rong Mu, Li Wang, Xiao-Ai Cao, Yan Yan & Ke Yu* 
+  link:
+    url: https://www.nature.com/articles/s41467-024-46539-7
+    display: npj Biofilms and Microbiomes, 2024
+  highlight: 1
+  
 - title: "Increased replication of dissimilatory nitrogen-reducing bacteria leads to decreased anammox reactor performance"
   authors: R Keren#, J E.Lawrence#, W Zhuang, D Jenkins, J F.Banfield, L Alvarez-Cohen, L Zhou*, K Yu*
   link:
     url: https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-020-0786-3
-    display: Microbiome, 2020, 8:7
+    display: Microbiome, 2020
   highlight: 1
 
 - title: "An integrated meta-omics approach reveals substrates involved in synergistic interactions in a bisphenol A (BPA)- degrading microbial community"
   authors: K Yu*#, S Yi#, B Li, F Guo, X Peng, Z Wang, Y Wu, L Alvarez-Cohen, T Zhang*
   link:
     url: https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0634-5
-    display: Microbiome, 2019, 7:16
+    display: Microbiome, 2019
   highlight: 1
 
 - title: "A mixed blessing of influent leachate microbes in downstream biotreatment systems of a full-scale landfill leachate treatment plant"
   authors: C Deng#, T Chen#, Z Qiu, H Zhou, B Li, Y Zhang, X Xu, C Lian, X Qiao, K Yu*
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0043135424002124
-    display: Water Research, 2024, 253:121310
+    display: Water Research, 2024
   highlight: 1
 
 - title: "Bidirectional enhancement of nitrogen removal by indigenous synergetic microalgal− bacterial consortia in harsh low-C/N Wastewater"
   authors: Y Geng#, Z Xiong, Li Yang*, C Lian, S G.Pavlostathis, Z Qiu, H Chen, Q Luo, Y Liu, Z Liu, P Shao, J Zou, H Jiang, S Luo, K Yu*, X Luo*
   link:
     url: https://pubs.acs.org/doi/10.1021/acs.est.3c10322
-    display: Environmental Science & Technology, 2024
+    display: Environmental Science & Technology
   highlight: 1
 
 - title: "Prenatal transfer of polybrominated diphenyl ethers (PBDEs) results in developmental neurotoxicity in zebrafish larvae"
   authors: L Chen#, K Yu#, C Huang, L Yu, B Zhu, PK Lam, JCW Lam, B Zhou*
   link:
     url: https://pubs.acs.org/doi/10.1021/es302119g
-    display: Environmental Science & Technology, 2012, 46(17):9727-9734
+    display: Environmental Science & Technology, 2012
   highlight: 1
 
 - title: "An integrated meta-omics approach reveals the different response mechanisms of two anammox bacteria towards fluoroquinolone antibiotics"
   authors: X Qiao#, L Ding, F Fang, C Fu, R Wei, Y Chen, S Zheng, X Wang, Y Yan, K Yang, N Xu, H Tao, K Yu*, L Zhang*
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/38394916/
-    display: Environment International, 2024, 185:108505
+    display: Environment International, 2024
   highlight: 1
 
 - title: "Unravelling biosynthesis and biodegradation potentials of microbial dark matters in hypersaline lakes"
   authors: Z Qiu#, Y Zhu, Q Zhang, X Qiao, R Mu, Z Xu, Y Yan, F Wang, T Zhang, W Zhuang, K Yu*
   link:
     url: https://www.sciencedirect.com/science/article/pii/S2666498423001242
-    display: Environmental Science and Ecotechnology, 2024, 20:100359
+    display: Environmental Science and Ecotechnology, 2024
   highlight: 1
