@@ -18,6 +18,13 @@
     display: npj Biofilms and Microbiomes, 2024
   highlight: 1
 
+- title: "Rethinking Text-based Protein Understanding: Retrieval or LLM?"
+  authors: Juntong Wu, Zijing Liu, He Cao, Li Hao, Bin Feng, Zishan Shu, Ke Yu*, Li Yuan*, Yu Li*
+  link:
+    url: https://aclanthology.org/2025.emnlp-main.1211/
+    display: EMNLP Oral, 2025
+  highlight: 1
+
 - title: "Increased replication of dissimilatory nitrogen-reducing bacteria leads to decreased anammox reactor performance"
   authors: R Keren#, J E.Lawrence#, W Zhuang, D Jenkins, J F.Banfield, L Alvarez-Cohen, L Zhou*, K Yu*
   link:
@@ -30,6 +37,13 @@
   link:
     url: https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0634-5
     display: Microbiome, 2019
+  highlight: 1
+
+- title: "Unlocking microbial synergy in mcroalgae-bcteria gnules: RSM-driven optimization and lifecycle microbial metagenomics for high-ammonia wastewater treatment"
+  authors: Yanni Geng, Chun-Ang Lian, Liming Yang, Spyros G Pavlostathis, Xuejiao Qiao, Zhiguang Qiu, Yu Wang, Nan Dong, Anjie Li, Xubiao Luo, Ke Yu*
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0043135425020019
+    display: Water Research, 2025
   highlight: 1
 
 - title: "A mixed blessing of influent leachate microbes in downstream biotreatment systems of a full-scale landfill leachate treatment plant"
