@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**News: Our group will**
+**Peking University Environmental Microbiome Biotechnology Lab**
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
