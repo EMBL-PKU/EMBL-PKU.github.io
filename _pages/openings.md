@@ -71,7 +71,7 @@ Please format your email subject and attached resume as: [Visiting Student/Resea
 
 ### 三：申请方式
 
-有意向的同学请将个人简历（RP研究计划可选）发到该邮箱📮：hwu202425@gmail.com
+有意向的同学请将个人简历（RP研究计划可选）发到该邮箱📮：hwu202425@gmail.com cc: yuke.sz@pku.edu.cn
 
 邮件主题与附件请统一命名为：[保研申请] 姓名-学校-专业-喜欢的研究方向
 
