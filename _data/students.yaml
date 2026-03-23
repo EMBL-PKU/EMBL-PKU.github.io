@@ -1,113 +1,113 @@
 - name: Jincheng Hu
   photo: jincheng.jpg
-  info: Ph.D. Candidate, started Sept. 2021
+  info: Ph.D. Candidate, entered September 2021
   email:
   number_educ: 1
   education1: 2021-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
 - name: Na Wang
   photo: nawang.jpg
-  info: Ph.D. Candidate, started Sept. 2022
+  info: Ph.D. Candidate, entered September 2022
   email:
   number_educ: 1
   education1: 2022-present, Ph.D. Candidate, University of Chinese Academy of Sciences
 
 - name: Nan Dong
   photo: dongnan.jpg
-  info: Ph.D. Candidate, started Sept. 2024
+  info: Ph.D. Candidate, entered September 2024
   email:
   number_educ: 2
   education1: 2024-present, Ph.D. Candidate, School of Environment and Energy, Peking University
-  education2: 2021-2024, M.S. Environmental Engineering, Shenzheng University
+  education2: 2021-2024, M.S. Environmental Engineering, Shenzhen University
 
 - name: Lin Cheng
   photo: lincheng.jpg
-  info: Ph.D. Candidate, started Sept. 2025
+  info: Ph.D. Candidate, entered September 2025
   email:
   number_educ: 1
   education1: 2025-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
 - name: Lanyue Liang
   photo: lanyue.png
-  info: Mphil, started Sept. 2023
+  info: M.Phil. Student, entered September 2023
   email:
   number_educ: 2
-  education1: 2023-present, Mphil Student, School of Environment and Energy, Peking University
-  education2: 2019-2023, Bachelor Student, School of Resoueces and Environment, Southwest University
+  education1: 2023-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education2: 2019-2023, Bachelor's Student, School of Resources and Environment, Southwest University
 
 - name: Yiqun Wang
   photo: yiqun.png
-  info: Mphil, started Sept. 2023
+  info: M.Phil. Student, entered September 2023
   email:
   number_educ: 1
-  education1: 2023-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2023-present, M.Phil. Student, School of Environment and Energy, Peking University
 
 - name: Chang Wen
   photo: changwen.jpg
-  info: Mphil, started Sept. 2024
+  info: M.Phil. Student, entered September 2024
   email:
   number_educ: 2
-  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2020-2024, BEng. Environmental Engineering, College of The Environment and Ecology, Xiamen University
 
 - name: Xinya Jiang
   photo: xinya.jpg
-  info: Mphil, started Sept. 2024
+  info: M.Phil. Student, entered September 2024
   email:
   number_educ: 2
-  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2020-2024, BEng. Environmental Engineering, China Agricultural University
 
 - name: Runzhi Cao
   photo: runzhi.jpg
-  info: Mphil, started Sept. 2024
+  info: M.Phil. Student, entered September 2024
   email:
   number_educ: 1
-  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
 
 - name: Anjie Li
   photo: anjie.jpg
-  info: Mphil, started Sept. 2024
+  info: M.Phil. Student, entered September 2024
   email:
   number_educ: 1
-  education1: 2024-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
 
 - name: Huifen Zhu
   photo: huifenzhu.jpg
-  info: Mphil, started Sept. 2025
+  info: M.Phil. Student, entered September 2025
   email:
   number_educ: 2
-  education1: 2025-present, Mphil Student, School of Environment and Energy, Peking University
-  education2: 2021-2025, BEng. Bioengineering, Tianjin university of science and technology
+  education1: 2025-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education2: 2021-2025, BEng. Bioengineering, Tianjin University of Science and Technology
 
 - name: Zhuolin Tong
   photo: zhuolin.jpg
-  info: Mphil, started Sept. 2025
+  info: M.Phil. Student, entered September 2025
   email:
   number_educ: 2
-  education1: 2025-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2025-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2021-2025, B.S. Biological Science, Hubei University
 
 - name: Yingqi Ying
   photo: yingyingqi.jpg
-  info: Mphil, started Sept. 2025
+  info: M.Phil. Student, entered September 2025
   email:
   number_educ: 2
-  education1: 2025-present, Mphil Student, School of Environment and Energy, Peking University
+  education1: 2025-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2021-2025, B.S. Environmental Science, China University of Mining and Technology
 
 - name: <a href="http://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a>
   photo: elijah.jpg
-  info: Mphil, started Sept. 2025
+  info: M.Phil. Student, entered September 2025
   email: zrjiang@stu.pku.edu.cn
   number_educ: 3
-  education1: 2025-present, Mphil in Environmental Engineering, Peking University
+  education1: 2025-present, M.Phil. in Environmental Engineering, Peking University
   education2: 2021-2025, BEng. Robotics, Heriot-Watt University
   education3: 2021-2025, BEng. Computer Science, Ocean University of China
 
 - name: Dingyan Zhang
   photo: dingyan.jpg
-  info: Mphil, started Sept. 2026
+  info: M.Phil. Student, entering September 2026
   email:
   number_educ: 2
   education1: 2022-present, B.S. Environmental Science, Peking University
@@ -115,21 +115,21 @@
 
 - name: Yujun Wu
   photo: yujun.png
-  info: Mphil, started Sept. 2026
+  info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
   education1: 2022-present, BEng. Artificial Intelligence, Huazhong Agricultural University
 
 - name: Haomei Li
   photo: haomeili.jpg
-  info: Mphil, started Sept. 2026
+  info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
   education1: 2022-present, B.S. Life Science, Shandong University
 
 - name: Chunying Zheng
   photo: chunying.jpg
-  info: Mphil, started Sept. 2026
+  info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
   education1: 2022-present, BEng. Environmental Engineering, South China Normal University

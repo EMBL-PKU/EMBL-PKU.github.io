@@ -1,78 +1,82 @@
 ---
-title: "PKU-EMBL Lab - Vacancies"
+title: "PKU-EMBL Lab - Openings"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Open positions at the PKU-EMBL Lab"
 sitemap: false
 permalink: /vacancies
 ---
 
-# Open positions
+# Open Positions
 
-**We are currently open for Visiting Students, Research Assistant,Master,PhD and Postdoc applications.**
+The **PKU-EMBL Lab** welcomes applications and informal inquiries from highly motivated researchers interested in **AI for life science, microbiome science, environmental biotechnology, and bioinformatics**. We recruit **visiting students, research assistants, master's students, Ph.D. students, and postdoctoral researchers** on a rolling basis, subject to project needs and available support.
 
-## Call for Research Interns: Join Peking University's AI for Life Science Team
+## Research Directions
 
-### 1. About the Research
+Current projects in the group include:
 
-The AI for Science (AI4S) team at Peking University invites applications for several research intern positions. Our work is centered at the exciting intersection of Artificial Intelligence and Life Sciences (AI for Life Science), where we tackle complex biological challenges with cutting-edge computational methods.
+1. **AI for multi-omics and microbiome analysis**
+2. **Scientific agents and foundation models for biology**
+3. **High-performance bioinformatics software, databases, and workflow systems**
+4. **Microbial resource mining, cultivation, and biosynthetic gene cluster discovery**
 
-### 2. Your Role and Responsibilities
+## Who We Are Looking For
 
-We are looking for interns to contribute to one of the following areas:
+We are particularly interested in applicants who have:
 
-1. High-Performance Computing: Optimize and design novel bioinformatics software and develop robust Python libraries.
-2. AI for Multi-Omics: Apply advanced AI techniques to analyze and interpret complex multi-omics datasets.
-3. LLM Agents for Science: Pioneer the design and implementation of Large Language Model (LLM) Agents to solve problems in the life sciences.
+1. A background in **bioinformatics, computational biology, environmental engineering, computer science, mathematics, statistics, or a related field**
+2. Strong quantitative skills and solid programming ability
+3. Demonstrated interest in **machine learning, large language models, scientific computing, or microbiome research**
+4. The ability to work independently while collaborating closely in a multidisciplinary environment
 
-### 3. Who We Are Looking For
+Prior experience in research, software engineering, open-source development, or data-intensive biological analysis is highly valued.
 
-An ideal candidate will have:
+## Research Environment
 
-1. An academic background in Bioinformatics, Computational Biology, Computer Science, Mathematics, or a related discipline.
-2. Hands-on experience with high-performance software development, optimization, and/or Python library creation.
-3. A solid understanding of ML, DL, or LLMs, demonstrated through relevant courses or projects.
-4. Priority consideration will be given to applicants with a proven track record in research, substantial engineering project experience, or exceptional coding abilities.
+Our lab combines **dry-lab and wet-lab collaboration**, large-scale environmental datasets, and modern computational infrastructure. Ongoing projects span environmental microbiology, multi-omics, bioinformatics, scientific agents, and AI-native research workflows. The group has access to **high-performance GPU resources including H200, A100, and L40S systems**, as well as opportunities for interdisciplinary collaboration and translation.
 
-### 4. Internship Details
+For suitable projects, **research internships are currently organized in an online format**. Outstanding interns who later apply for graduate study may be considered for future openings and recommendation within the lab's training pipeline.
 
-The internship will be conducted entirely online, offering you the flexibility to collaborate from any location.
+## How To Apply
 
-### 5. Pathway to Graduate Studies
+Please send your **CV** and, if available, a short **statement of research interest** to:
 
-Our group actively recruits graduate students in computational disciplines each year. Interns who excel during their term and are interested in graduate admission will receive a strong recommendation for the university's and our school's summer camp admissions process next year (May-June).
+- `yuke.sz@pku.edu.cn`
+- `hwu202425@gmail.com`
 
-### 6. Application Process
+Please use the subject line:
 
-We encourage all interested students to reach out via email. We are happy to answer any questions about our team, our research, and what you can expect from the internship experience.
+`[Visiting Student / Research Assistant / Master's / Ph.D. / Postdoc] Name - University - Major - Research Interest`
 
-Contact Email 📧 : yuke.sz@pku.edu.cn cc: hwu202425@gmail.com
-
-Please format your email subject and attached resume as: [Visiting Student/Research Assistant/Master Student/Phd Student] YourName-YourUniversity-YourMajor-YourPreferredFocusArea
+We are happy to hear from applicants who would like to discuss fit, research directions, or the lab environment before submitting a formal application.
 
 ---
 
-### 一：实验室介绍：
+## 中文说明
 
-研究方向聚焦于极端环境微生物资源挖掘（尤其是盐、酸、碱水生态系统），致力于发现具有潜在功能的未知微生物类群及生物活性物质合成基因簇，并通过培育与生物合成技术实现应用转化。目前，课题组采集的盐/酸/碱水陆样品数据量占全球同类数据的80%以上，为人工智能驱动的微生物多样性解析与工程化应用奠定了核心数据基础。为实现该目标，课题组主要开展以下工作：
+PKU-EMBL Lab 长期欢迎有志于 **AI for Life Science、微生物组学、生物信息学与环境生物技术** 的同学和青年研究人员联系申请。课题组目前开放 **访问学生、科研助理、硕士、博士及博士后** 等岗位，并根据课题进展与经费情况持续招收优秀成员。
 
-1. 技术创新：开发融合分子生物学与人工智能(大语言模型和多智能体)的微生物组学技术及生物信息学方法
-2. 系统构建：建立宏基因组与宏转录组分析算法、数据库、分析流程及可视化平台和社群Hub
-3. 多组学整合：结合代谢组学、培养组学及基因操作技术，实现对极端环境微生物资源及生物合成基因簇的精准识别与高效培育
+### 研究方向
 
-### 二：基本要求：
+1. 面向多组学与微生物组研究的人工智能方法
+2. 面向生命科学问题的科学智能体与生物大模型
+3. 高性能生物信息学软件、数据库、分析流程与社群资源建设
+4. 极端环境微生物资源挖掘、生物合成基因簇发现与培养验证
 
-1. 对于AI for Life Science有热情(课题组氛围超open, 鼓励做你想做的一切!!!)
-2. 精通Vibe Coding, 熟练使用Skills, 大力支持AI编程(新时代生产力!!!)
-3. 扎实的数理基础，对基因组语言模型, 科学智能体, 生物信息学软件开发等至少一个领域有深入理解和实践
+### 我们期待的申请者
 
-培养方向聚焦AI for Life Science，研究方向包括科学智能体(微生物挖掘分析)、生物大模型、高性能生物信息软件开发与社群Hub构建，合成基因簇挖掘等有影响力的工作。
+1. 具有生物信息学、计算生物学、环境工程、计算机、数学、统计等相关背景
+2. 具备扎实的数理基础与编程能力
+3. 对机器学习、大语言模型、科学计算或微生物组研究有明确兴趣
+4. 愿意在跨学科环境中开展长期、深入且高标准的研究工作
 
-培养计划3年学术型硕士(07理学代码)（鼓励实习!!! 完全放实习!!!)，配备顶尖国内外导师团队(干湿结合)、高性能GPU(H200, A100, L40S)集群、丰富数据集及产业转化机会，助力成为国际领军人才。
+### 培养与平台
 
-### 三：申请方式
+课题组强调干湿结合与计算实验协同，研究内容覆盖极端环境微生物资源挖掘、多组学解析、AI for Science、生物信息软件开发与科学智能体等方向。团队配备较强的计算资源与数据基础，并可提供跨学科合作、科研训练和成果转化相关机会。
 
-有意向的同学请将个人简历（RP研究计划可选）发到该邮箱📮：hwu202425@gmail.com cc: yuke.sz@pku.edu.cn
+### 申请方式
 
-邮件主题与附件请统一命名为：[保研申请] 姓名-学校-专业-喜欢的研究方向
+请将个人简历发送至 `hwu202425@gmail.com`，并抄送 `yuke.sz@pku.edu.cn`。如有研究计划、代表性项目或论文，也欢迎一并附上。
 
-欢迎👏私信个人情况进行交流! 每条私信我们都会进行回复的!
+邮件主题建议统一为：
+
+`[申请类型] 姓名-学校-专业-感兴趣的研究方向`
