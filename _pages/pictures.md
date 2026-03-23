@@ -1,23 +1,23 @@
 ---
-title: "PKU-EMBL Lab - Pictures"
+title: "PKU-EMBL Lab - Gallery"
 layout: piclay
 excerpt: "PKU-EMBL Lab -- Pictures"
 permalink: /pictures/
 ---
 
-# Pictures
+# Gallery
 
-<!-- Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st-andrews) -->
+## Lab Video
 
-## Viedo
+A short video glimpse of fieldwork and lab activities.
 
 <html>
     <head>
 	<meta charset="utf-8">
     <style>
         #myVideo {
-            width: 100px; 
-            height: 100px; 
+            width: 100px;
+            height: 100px;
         }
     </style>
     </head>

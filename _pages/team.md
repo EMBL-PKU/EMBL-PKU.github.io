@@ -6,13 +6,21 @@ sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+# Team
 
-**We are looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+{% assign alumni_count = site.data.alumni_members | size %}
+{% assign former_visiting_count = site.data.alumni_visitors | size %}
+{% assign former_degree_count = site.data.alumni_msc | size %}
+{% assign former_postdoc_count = site.data.alumni_bsc | size %}
+{% assign former_total_count = former_visiting_count | plus: former_degree_count | plus: former_postdoc_count %}
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.
 
-## Staff
+We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our [Openings page]({{ site.url }}{{ site.baseurl }}/vacancies) for current opportunities.
+
+Jump to [faculty and research staff](#faculty-and-research-staff), [graduate students](#graduate-students){% if alumni_count > 0 %}, [alumni](#alumni){% endif %}{% if former_total_count > 0 %}, [former trainees](#former-trainees){% endif %}.
+
+## Faculty and Research Staff
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -83,7 +91,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Doctor and Master Students
+## Graduate Students
 
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -154,6 +162,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
+{% if alumni_count > 0 %}
 ## Alumni
 
 {% assign number_printed = 0 %}
@@ -189,33 +198,42 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 </div>
 {% endif %}
+{% endif %}
 
-## Former visiting, Ph.D/MPhil students and Postdoctoral Researhers
+{% if former_total_count > 0 %}
+## Former Trainees
 
 <div class="row">
 
+{% if former_visiting_count > 0 %}
 <div class="col-sm-4 clearfix">
 <h4>Visiting Students</h4>
 {% for member in site.data.alumni_visitors %}
 {{ member.name }}
 {% endfor %}
 </div>
+{% endif %}
 
+{% if former_degree_count > 0 %}
 <div class="col-sm-4 clearfix">
-<h4>Ph.D/MPhil students</h4>
+<h4>Former Degree Students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}
 {% endfor %}
 </div>
+{% endif %}
 
+{% if former_postdoc_count > 0 %}
 <div class="col-sm-4 clearfix">
-<h4>Postdoctoral Researhers</h4>
+<h4>Former Postdoctoral Researchers</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
 </div>
+{% endif %}
 
 </div>
+{% endif %}
 
 <!-- ## Administrative Support
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->

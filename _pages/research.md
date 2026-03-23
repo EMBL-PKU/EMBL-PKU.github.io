@@ -6,44 +6,40 @@ sitemap: false
 permalink: /research/
 ---
 
-# PKU EMBL Research
+# Research
 
-**Research Focus** Our research focuses on **mining microbial resources in extreme environments (specifically hypersaline, acidic, and alkaline ecosystems)**. We are dedicated to discovering unknown microbial taxa with potential functions and **biosynthetic gene clusters (BGCs)** for bioactive substances, achieving application and translation through cultivation and biosynthetic technologies.
+The PKU-EMBL Lab investigates how microbial communities evolve, function, and can be translated into useful biological systems. We focus especially on **extreme environments**, where unconventional ecological pressures often reveal overlooked diversity, unusual metabolisms, and new biosynthetic potential.
 
-To achieve these goals, the group primarily conducts work in the following areas:
+## Research Vision
 
-1. **Technological Innovation**: Developing microbiomics technologies and bioinformatics methods that integrate molecular biology and artificial intelligence (AI).
+Our long-term goal is to connect **microbial discovery**, **mechanistic understanding**, and **engineering application**. We combine environmental microbiology with artificial intelligence to identify novel taxa, interpret complex multi-omics data, and accelerate the path from sequence to function.
 
-2. **System Construction**: Establishing analysis algorithms, databases, processing pipelines, and visualization platforms for metagenomics and metatranscriptomics.
+## Core Research Themes
 
-3. **Multi-omics Integration**: Combining metabolomics, culturomics, and genetic manipulation techniques to achieve precise identification and efficient cultivation of microbial resources and BGCs from extreme environments.
+1. **Extreme-environment microbial resource mining**  
+   We study hypersaline, acidic, and alkaline ecosystems to discover uncultivated or poorly characterized microorganisms and biosynthetic gene clusters with potential ecological and biotechnological relevance.
 
-研究方向聚焦于极端环境微生物资源挖掘（尤其是盐、酸、碱水生态系统），致力于发现具有潜在功能的未知微生物类群及生物活性物质合成基因簇，并通过培育与生物合成技术实现应用转化。为实现该目标，课题组主要开展以下工作：
+2. **AI for microbiome and multi-omics science**  
+   We develop algorithms, software, and data-analysis workflows for metagenomics, metatranscriptomics, and integrative multi-omics, with growing interest in large language models and scientific agents for biological discovery.
 
-1. 技术创新：开发融合分子生物学与人工智能的微生物组学技术及生物信息学方法；
-2. 系统构建：建立宏基因组与宏转录组分析算法、数据库、分析流程及可视化平台；
-3. 多组学整合：结合代谢组学、培养组学及基因操作技术，实现对极端环境微生物资源及生物合成基因簇的精准识别与高效培育。
+3. **Cultivation and functional validation**  
+   We pair computational predictions with cultivation, metabolomics, and genetic approaches to validate microbial functions and move beyond descriptive cataloging.
 
----
+4. **Research infrastructure and community resources**  
+   We build databases, pipelines, visualization tools, and reusable software that support reproducible microbiome research at scale.
 
-**Key Research Areas** Focusing on microorganisms in both extreme environments and human systems, we develop:
+## Methodological Strengths
 
-1. **Enrichment and sequencing technologies** for trace amounts of genetic material.
+Our work sits at the interface of **field sampling, wet-lab experimentation, bioinformatics, and high-performance computing**. This integrated approach allows us to address questions that are difficult to solve from a single disciplinary perspective alone.
 
-2. **Multi-omics software, algorithms, and analysis pipelines** based on artificial intelligence.
+## Representative Impact
 
-3. **High-precision multi-omics data interpretation and directed enrichment cultivation technologies**. These are used to discover unique microbial taxa related to Earth's evolutionary history and to explore their application potential in the production of specialized biological agents, environmental remediation, and ecosystem modification.
+Research led by **Prof. Ke Yu** has produced **more than 90 SCI publications** with **over 5,000 citations**, including papers in *Nature Communications*, *Microbiome*, *Environmental Science & Technology*, and *Water Research*. Representative studies from the broader research program have been recognized for advancing metatranscriptomics, multi-omics analysis, and genome-resolved microbiome research.
 
-研究关注于极端环境及人体系统的微生物，开发
+## Resources
 
-1）痕量遗传物质富集及测序技术
-
-2）基于人工智能技术的多宏组软件、算法及分析流程开发
-
-3）多组学高精度数据解析和定向富集培养技术，以此发掘地球演化过程中的特殊微生物类群及其在特殊生物制剂生产、环境修复与改造中的应用潜能
-
----
-
-Lab Website: [PKU EMBL](https://embl-pku.github.io)
-
-Google Scholar: [Publications](https://scholar.google.com/citations?hl=en&user=FunfWVAAAAAJ)
+- Google Scholar: [Prof. Ke Yu's publication profile](https://scholar.google.com/citations?hl=en&user=FunfWVAAAAAJ)
+- GitHub organization: [PKU EMBL Resources](https://github.com/PKU-EMBL)
+- GitHub bioinformatics tools: [EMBL-PKU](https://github.com/EMBL-PKU)
+- Website: [PKU-EMBL Lab](https://embl-pku.github.io)
+- WeChat official account: `PKU EMBL`
