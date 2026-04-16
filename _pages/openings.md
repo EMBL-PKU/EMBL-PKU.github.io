@@ -19,6 +19,10 @@ Current projects in the group include:
 3. **High-performance bioinformatics software, databases, and workflow systems**
 4. **Microbial resource mining, cultivation, and biosynthetic gene cluster discovery**
 
+<div class="col-sm-3 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images//{{frame.png}}" class="img-responsive" width="95%" style="float: left" />
+</div>
+
 ## Who We Are Looking For
 
 We are particularly interested in applicants who have:
