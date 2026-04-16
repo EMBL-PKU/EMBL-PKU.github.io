@@ -14,6 +14,11 @@ The PKU-EMBL Lab investigates how microbial communities evolve, function, and ca
 
 Our long-term goal is to connect **microbial discovery**, **mechanistic understanding**, and **engineering application**. We combine environmental microbiology with artificial intelligence to identify novel taxa, interpret complex multi-omics data, and accelerate the path from sequence to function.
 
+<div align="center">
+  <img src="/images/frame.png" width="80%" alt="Research Flowchart">
+  <p><em>Figure 1：PKU-EMBL Research Overview</em></p>
+</div>
+
 ## Core Research Themes
 
 1. **Extreme-environment microbial resource mining**  
@@ -34,7 +39,7 @@ Our work sits at the interface of **field sampling, wet-lab experimentation, bio
 
 ## Representative Impact
 
-Research led by **Prof. Ke Yu** has produced **more than 90 SCI publications** with **over 5,000 citations**, including papers in *Nature Communications*, *Microbiome*, *Environmental Science & Technology*, and *Water Research*. Representative studies from the broader research program have been recognized for advancing metatranscriptomics, multi-omics analysis, and genome-resolved microbiome research.
+Research led by **Prof. Ke Yu** has produced **more than 90 SCI publications** with **over 5,000 citations**, including papers in _Nature Communications_, _Microbiome_, _Environmental Science & Technology_, and _Water Research_. Representative studies from the broader research program have been recognized for advancing metatranscriptomics, multi-omics analysis, and genome-resolved microbiome research.
 
 ## Resources
 
