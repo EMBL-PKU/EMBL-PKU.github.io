@@ -63,10 +63,6 @@ We aim to build both **fundamental understanding** and **usable research infrast
 3. **Microbial cultivation and functional validation** for novel taxa and biosynthetic potential.
 4. **Bioinformatics software, databases, and community resources** that support reproducible research.
 
-<figure class="one">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/frame.png" style="width: 210px">
-</figure>
-
 ## Our Approach
 
 The lab combines **field work, wet-lab experimentation, computational biology, and high-performance computing**. We are particularly interested in questions where biological complexity and data scale require close integration between domain science and modern machine learning.
