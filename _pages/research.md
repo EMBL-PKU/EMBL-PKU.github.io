@@ -14,8 +14,6 @@ The PKU-EMBL Lab investigates how microbial communities evolve, function, and ca
 
 Our long-term goal is to connect **microbial discovery**, **mechanistic understanding**, and **engineering application**. We combine environmental microbiology with artificial intelligence to identify novel taxa, interpret complex multi-omics data, and accelerate the path from sequence to function.
 
-![image](/images/frame.png){:class="img-responsive"}
-
 ## Core Research Themes
 
 1. **Extreme-environment microbial resource mining**  
