@@ -67,9 +67,7 @@ Please email:
 - `yuke.sz@pku.edu.cn`
 - `hwu202425@gmail.com`
 
-Suggested subject line:
-
-<p class="subject-line"><code>[Position Type] Name - University - Major - Research Interest</code></p>
+<p class="subject-line"><span>Suggested subject line:</span><code>[Position Type] Name - University - Major - Research Interest</code></p>
 
 Examples of position type include `Visiting Student`, `Research Assistant`, `Master's Applicant`, `Ph.D. Applicant`, and `Postdoc`.
 
@@ -123,6 +121,4 @@ PKU-EMBL Lab 长期欢迎有志于 **微生物“暗物质”解析、AI for Lif
 3. 代表性论文、项目、代码仓库、报告或写作样本
 4. 学生成绩单或其他能反映学术训练的材料
 
-邮件主题建议：
-
-<p class="subject-line"><code>[申请类型] 姓名-学校-专业-感兴趣的研究方向</code></p>
+<p class="subject-line"><span>邮件主题建议：</span><code>[申请类型] 姓名-学校-专业-感兴趣的研究方向</code></p>
