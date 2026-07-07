@@ -1,0 +1,21 @@
+---
+title: PKU-EMBL Lab - Publications
+layout: gridlay
+excerpt: "PKU-EMBL Lab -- Publications"
+sitemap: false
+permalink: /publications/
+---
+
+<h1>Publications</h1>
+
+<p>A full and continuously updated publication list is available on <a href="https://scholar.google.com/citations?hl=en&amp;user=FunfWVAAAAAJ">Google Scholar</a>. Selected representative papers from the PKU-EMBL Lab and related research program are listed below.</p>
+
+<p class="publication-note"><span>#</span> Equal contribution. <span>*</span> Corresponding author.</p>
+
+{% for publi in site.data.publist %}
+<p class="publication-item">
+  <span class="publication-title">{{ publi.title | escape }}</span><br />
+  <em>{{ publi.authors | escape }}</em><br />
+  <a class="publication-link{% if publi.link.url contains 'scholar.google.com' %} scholar-link{% endif %}" href="{{ publi.link.url }}">{{ publi.link.display | escape }}</a>
+</p>
+{% endfor %}

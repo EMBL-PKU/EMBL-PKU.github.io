@@ -80,6 +80,17 @@ a:focus {
   margin-bottom: 22px;
 }
 
+.publication-note {
+  color: $muted;
+  font-size: 15px;
+  margin: 8px 0 24px;
+}
+
+.publication-note span {
+  color: $ink;
+  font-weight: 600;
+}
+
 .publication-title {
   font-weight: 600;
 }
