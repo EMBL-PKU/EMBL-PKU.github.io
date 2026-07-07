@@ -1216,9 +1216,23 @@ firstp {
     aspect-ratio: 4 / 3;
   }
 
+  .gallery-carousel .carousel-inner,
+  .gallery-carousel .item {
+    aspect-ratio: 16 / 9;
+  }
+
   .news-panel {
     position: static;
     margin-top: 8px;
+  }
+
+  .resources-panel {
+    display: block;
+  }
+
+  .wechat-card {
+    max-width: 180px;
+    margin-top: 16px;
   }
 
   .footer-content {
