@@ -6,70 +6,81 @@ sitemap: false
 permalink: /
 ---
 
-**Environmental Microbiome Biotechnology Lab, School of Environment and Energy, Peking University**
+<section class="home-section home-statement" markdown="1">
+The **PKU-EMBL Lab** develops systematic technologies for microbial dark matter discovery, integrating extreme-environment sampling, multi-omics, AI, software, and experimental validation.
+</section>
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Research Focus</p>
+    <h2>Systematic technologies for microbial dark matter<br><span lang="zh-CN">微生物“暗物质”的系统性解析技术</span></h2>
+  </div>
 
-    <!-- Items -->
+  <p>From extreme environments to AI-enabled discovery, we study rare microorganisms, hidden pathways, stress-resistance proteins, and community interactions.</p>
 
-<div class="carousel-inner" markdown="0">
-    <div class="item active">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/caiyang_1.jpg" alt="Slide 1" />
-    </div>
-    <div class="item">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/caiyang_2.jpg" alt="Slide 2" />
-    </div>
-    <div class="item">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/caiyang_3.jpg" alt="Slide 3" />
-    </div>
-    <div class="item">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lake.png" alt="Slide 4" />
-    </div>
-    <div class="item">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lake2.png" alt="Slide 5" />
-    </div>
-      <div class="item">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/train.png" alt="Slide 6" />
-    </div>
-</div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+  <div class="research-grid">
+    <article class="research-card">
+      <span class="research-index">01</span>
+      <h3>Rare genomes<br><span lang="zh-CN">稀有基因组</span></h3>
+      <p>LASE-seq, ThetaBin, ThetaCheck, BASALT.</p>
+    </article>
 
-The **PKU-EMBL Lab** studies microbial diversity, function, and biotechnological potential across extreme environments. Our work integrates **large-scale environmental sampling, multi-omics, artificial intelligence, cultivation, and bioengineering** to uncover novel microbial taxa, biosynthetic gene clusters, and actionable biological mechanisms.
+    <article class="research-card">
+      <span class="research-index">02</span>
+      <h3>Pathways<br><span lang="zh-CN">代谢通路</span></h3>
+      <p>RCU knowledge graph, PathSeek, multi-omics evidence.</p>
+    </article>
 
-We aim to build both **fundamental understanding** and **usable research infrastructure**: datasets, analysis pipelines, software tools, and experimentally grounded workflows for environmental microbiology and AI for life science.
+    <article class="research-card">
+      <span class="research-index">03</span>
+      <h3>AI applications<br><span lang="zh-CN">AI 功能应用</span></h3>
+      <p>Protein models, antimicrobial peptides, cell factories.</p>
+    </article>
+  </div>
+  <p><a class="home-button" href="{{ "/research/" | relative_url }}">Read more</a></p>
+</section>
 
-## Research Areas
+<section class="home-section software-section">
+  <div class="section-heading">
+    <p class="section-kicker">Software</p>
+    <h2>Open-source tools from the PKU-EMBL Lab</h2>
+  </div>
 
-1. **Extreme-environment microbiomes** in hypersaline, acidic, and alkaline ecosystems.
-2. **AI-enabled multi-omics analysis**, including metagenomics, metatranscriptomics, and foundation-model-based interpretation.
-3. **Microbial cultivation and functional validation** for novel taxa and biosynthetic potential.
-4. **Bioinformatics software, databases, and community resources** that support reproducible research.
+  <p class="software-intro">Two BASALT-family tools for genome-resolved microbiome research.</p>
 
-## Our Approach
+  <div class="software-grid">
+    <article class="software-card featured">
+      <span class="software-label">Core Software</span>
+      <h3><a href="https://github.com/PKU-EMBL/BASALT">BASALT</a></h3>
+      <p>Metagenomic binning and genome refinement.</p>
+      <a class="github-link" href="https://github.com/PKU-EMBL/BASALT">
+        GitHub
+        <span class="github-stars" data-repo="PKU-EMBL/BASALT" data-fallback="234">234 stars</span>
+      </a>
+    </article>
 
-The lab combines **field work, wet-lab experimentation, computational biology, and high-performance computing**. We are particularly interested in questions where biological complexity and data scale require close integration between domain science and modern machine learning.
+    <article class="software-card">
+      <span class="software-label">Pipeline</span>
+      <h3><a href="https://github.com/PKU-EMBL/BASALT-Air">BASALT-Air</a></h3>
+      <p>Lightweight BASALT-family MAG recovery pipeline.</p>
+      <a class="github-link" href="https://github.com/PKU-EMBL/BASALT-Air">
+        GitHub
+        <span class="github-stars" data-repo="PKU-EMBL/BASALT-Air" data-fallback="5">5 stars</span>
+      </a>
+    </article>
+  </div>
 
-## Join The Lab
+  <p><a class="home-button" href="{{ "/software/" | relative_url }}">View all software</a></p>
+</section>
 
-We welcome inquiries from **prospective master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns** who are excited about microbiome science, environmental biotechnology, and AI for science. Current opportunities are listed on the [Openings page]({{ site.url }}{{ site.baseurl }}/vacancies).
+<section class="home-section join-panel">
+  <div>
+    <p class="section-kicker">Join The Lab</p>
+    <h2>Open to MPhil/Ph.D. students, postdocs, visiting researchers, and research interns</h2>
+    <p>We welcome inquiries from people excited about microbiome science, environmental biotechnology, bioinformatics, and AI for science.</p>
+  </div>
+  <a class="home-button primary" href="{{ "/vacancies" | relative_url }}">View Openings</a>
+</section>
 
 <!-- <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">

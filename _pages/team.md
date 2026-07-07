@@ -16,11 +16,17 @@ permalink: /team/
 
 The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.
 
-We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our [Openings page]({{ site.url }}{{ site.baseurl }}/vacancies) for current opportunities.
+We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies" | relative_url }}">Openings page</a> for current opportunities.
 
-Jump to [faculty and research staff](#faculty-and-research-staff), [graduate students](#graduate-students){% if alumni_count > 0 %}, [alumni](#alumni){% endif %}{% if former_total_count > 0 %}, [former trainees](#former-trainees){% endif %}.
+<nav class="team-jump">
+  Jump to
+  <a href="#faculty-and-research-staff">faculty and research staff</a>,
+  <a href="#graduate-students">graduate students</a>{% if alumni_count > 0 %},
+  <a href="#alumni">alumni</a>{% endif %}{% if former_total_count > 0 %},
+  <a href="#former-trainees">former trainees</a>{% endif %}.
+</nav>
 
-## Faculty and Research Staff
+<h2 id="faculty-and-research-staff">Faculty and Research Staff</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -33,7 +39,7 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/staff/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ "/images/teampic/staff/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
@@ -91,7 +97,7 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 </div>
 {% endif %}
 
-## Graduate Students
+<h2 id="graduate-students">Graduate Students</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -104,7 +110,7 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/student/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ "/images/teampic/student/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
@@ -163,7 +169,7 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 {% endif %}
 
 {% if alumni_count > 0 %}
-## Alumni
+<h2 id="alumni">Alumni</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -176,7 +182,7 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ "/images/teampic/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
@@ -201,34 +207,40 @@ Jump to [faculty and research staff](#faculty-and-research-staff), [graduate stu
 {% endif %}
 
 {% if former_total_count > 0 %}
-## Former Trainees
+<h2 id="former-trainees">Former Trainees</h2>
 
 <div class="row">
 
 {% if former_visiting_count > 0 %}
 <div class="col-sm-4 clearfix">
 <h4>Visiting Students</h4>
+<ul class="former-trainee-list">
 {% for member in site.data.alumni_visitors %}
-{{ member.name }}
+<li>{{ member.name }}</li>
 {% endfor %}
+</ul>
 </div>
 {% endif %}
 
 {% if former_degree_count > 0 %}
 <div class="col-sm-4 clearfix">
 <h4>Former Degree Students</h4>
+<ul class="former-trainee-list">
 {% for member in site.data.alumni_msc %}
-{{ member.name }}
+<li>{{ member.name }}</li>
 {% endfor %}
+</ul>
 </div>
 {% endif %}
 
 {% if former_postdoc_count > 0 %}
 <div class="col-sm-4 clearfix">
 <h4>Former Postdoctoral Researchers</h4>
+<ul class="former-trainee-list">
 {% for member in site.data.alumni_bsc %}
-{{ member.name }}
+<li>{{ member.name }}</li>
 {% endfor %}
+</ul>
 </div>
 {% endif %}
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="publication-title">
+  <title id="publication-title">Publication</title>
+  <g fill="none" stroke="#1a73e8" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7.25 3.75h6.45l3.55 3.55v12.95h-10z"/>
+    <path d="M13.7 3.75V7.3h3.55"/>
+    <path d="M9.95 11.15h4.6M9.95 14.15h4.6M9.95 17.15h2.9"/>
+    <path d="M4.75 6.55v13.7h10.1"/>
+  </g>
+</svg>

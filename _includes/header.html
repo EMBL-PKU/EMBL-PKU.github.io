@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <button
@@ -14,26 +14,29 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/"
+      <a class="navbar-brand" href="{{ "/" | relative_url }}"
         >PKU-EMBL Lab
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
         <li>
-          <a href="{{ site.url }}{{ site.baseurl }}/research">Research</a>
+          <a href="{{ "/research/" | relative_url }}">Research</a>
         </li>
         <li>
-          <a href="{{ site.url }}{{ site.baseurl }}/publications"
+          <a href="{{ "/software/" | relative_url }}">Software</a>
+        </li>
+        <li>
+          <a href="{{ "/publications/" | relative_url }}"
             >Publications</a
           >
         </li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
+        <li><a href="{{ "/team/" | relative_url }}">Team</a></li>
         <li>
-          <a href="{{ site.url }}{{ site.baseurl }}/vacancies">Openings</a>
+          <a href="{{ "/vacancies" | relative_url }}">Openings</a>
         </li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/pictures">Gallery</a></li>
+        <li><a href="{{ "/pictures/" | relative_url }}">Gallery</a></li>
       </ul>
     </div>
   </div>

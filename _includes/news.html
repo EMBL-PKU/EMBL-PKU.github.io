@@ -1,11 +1,15 @@
-
-<div class="well">
-<h4>News</h4>
+<div class="well news-panel">
+  <div class="news-panel-header">
+    <p class="section-kicker">Updates</p>
+    <h4>Latest News</h4>
+  </div>
 
 {% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
+  <div class="news-item">
+    <time>{{ article.date }}</time>
+    {{ article.headline | markdownify}}
+  </div>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
-    </div>
+  <a class="news-link" href="{{ "/allnews.html" | relative_url }}">All news</a>
+</div>

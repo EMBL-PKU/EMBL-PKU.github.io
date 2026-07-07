@@ -2,9 +2,28 @@
 layout: default
 ---
 
-<div id="homeid" class="col-sm-8">
-  <h1>Welcome to the PKU-EMBL Lab</h1>
+<div class="home-shell col-sm-12">
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <p class="home-eyebrow">Peking University | School of Environment and Energy</p>
+      <h1>PKU-EMBL Lab</h1>
+      <p class="home-subtitle">
+        Environmental Microbiome Biotechnology Lab<br />
+        <span lang="zh-CN">北京大学环境微生物生物技术实验室</span>
+      </p>
+      <p class="home-hero-deck">
+        Systematic technologies for microbial dark matter, from extreme
+        environments to AI-enabled discovery.
+      </p>
+      <div class="home-actions">
+        <a class="home-button primary" href="{{ "/research/" | relative_url }}">Research</a>
+        <a class="home-button" href="{{ "/vacancies" | relative_url }}">Openings</a>
+      </div>
+    </div>
+  </section>
 
-  {{ content }}
+  <div class="home-body">
+    <main id="homeid" class="home-page">{{ content }}</main>
+    <aside id="newsid" class="home-news">{% include news.html %}</aside>
+  </div>
 </div>
-<div id="newsid" class="col-sm-4">{% include news.html %}</div>
