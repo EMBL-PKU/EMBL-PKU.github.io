@@ -332,6 +332,10 @@ firstp {
   margin: 30px 0 46px;
 }
 
+.gallery-section .section-heading {
+  max-width: none;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
