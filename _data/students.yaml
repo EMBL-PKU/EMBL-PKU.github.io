@@ -27,20 +27,12 @@
   number_educ: 1
   education1: 2025-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
-- name: Lanyue Liang
-  photo: lanyue.png
-  info: M.Phil. Student, entered September 2023
-  email:
-  number_educ: 2
-  education1: 2023-present, M.Phil. Student, School of Environment and Energy, Peking University
-  education2: 2019-2023, Bachelor's Student, School of Resources and Environment, Southwest University
-
-- name: Yiqun Wang
-  photo: yiqun.png
-  info: M.Phil. Student, entered September 2023
+- name: Runzhi Cao
+  photo: runzhi.jpg
+  info: Ph.D. Candidate, entered September 2024
   email:
   number_educ: 1
-  education1: 2023-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education1: 2024-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
 - name: Chang Wen
   photo: changwen.jpg
@@ -57,13 +49,6 @@
   number_educ: 2
   education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2020-2024, BEng. Environmental Engineering, China Agricultural University
-
-- name: Runzhi Cao
-  photo: runzhi.jpg
-  info: M.Phil. Student, entered September 2024
-  email:
-  number_educ: 1
-  education1: 2024-present, M.Phil. Student, School of Environment and Energy, Peking University
 
 - name: Anjie Li
   photo: anjie.jpg
@@ -110,26 +95,26 @@
   info: M.Phil. Student, entering September 2026
   email:
   number_educ: 2
-  education1: 2022-present, B.S. Environmental Science, Peking University
-  education2: 2022-present, B.S. Life Science, Peking University
+  education1: 2022-2026, B.S. Environmental Science, Peking University
+  education2: 2022-2026, B.S. Life Science, Peking University
 
 - name: Yujun Wu
   photo: yujun.png
   info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
-  education1: 2022-present, BEng. Artificial Intelligence, Huazhong Agricultural University
+  education1: 2022-2026, BEng. Artificial Intelligence, Huazhong Agricultural University
 
 - name: Haomei Li
   photo: haomeili.jpg
   info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
-  education1: 2022-present, B.S. Life Science, Shandong University
+  education1: 2022-2026, B.S. Life Science, Shandong University
 
 - name: Chunying Zheng
   photo: chunying.jpg
   info: M.Phil. Student, entering September 2026
   email:
   number_educ: 1
-  education1: 2022-present, BEng. Environmental Engineering, South China Normal University
+  education1: 2022-2026, BEng. Environmental Engineering, South China Normal University
