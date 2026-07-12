@@ -252,6 +252,12 @@ firstp {
   margin-bottom: 6px;
 }
 
+@media (min-width: 768px) {
+  .single-line-list li {
+    white-space: nowrap;
+  }
+}
+
 .roadmap-section {
   margin: 30px 0 38px;
 }

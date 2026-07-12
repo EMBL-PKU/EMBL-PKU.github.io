@@ -23,7 +23,7 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
   <a href="#faculty-and-research-staff">faculty and research staff</a>,
   <a href="#graduate-students">graduate students</a>{% if alumni_count > 0 %},
   <a href="#alumni">alumni</a>{% endif %}{% if former_total_count > 0 %},
-  <a href="#former-trainees">former trainees</a>{% endif %}.
+  <a href="#former-trainees">visiting students</a>{% endif %}.
 </nav>
 
 <h2 id="faculty-and-research-staff">Faculty and Research Staff</h2>
@@ -171,52 +171,44 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% if alumni_count > 0 %}
 <h2 id="alumni">Alumni</h2>
 
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% assign phd_alumni = site.data.alumni_members | where: "degree", "phd" %}
+{% assign mphil_alumni = site.data.alumni_members | where: "degree", "mphil" %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
+<div class="row alumni-columns">
+{% if phd_alumni.size > 0 %}
 <div class="col-sm-6 clearfix">
-  <img src="{{ "/images/teampic/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
+<h4>Ph.D. Alumni</h4>
+<ul class="former-trainee-list">
+{% for member in phd_alumni %}
+<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
+</ul>
 </div>
 {% endif %}
+
+{% if mphil_alumni.size > 0 %}
+<div class="col-sm-6 clearfix">
+<h4>M.Phil. Alumni</h4>
+<ul class="former-trainee-list">
+{% for member in mphil_alumni %}
+<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+</div>
 {% endif %}
 
 {% if former_total_count > 0 %}
-<h2 id="former-trainees">Former Trainees</h2>
+<h2 id="former-trainees">Visiting Students</h2>
 
 <div class="row">
 
 {% if former_visiting_count > 0 %}
-<div class="col-sm-4 clearfix">
-<h4>Visiting Students</h4>
-<ul class="former-trainee-list">
+<div class="col-sm-12 clearfix">
+<ul class="former-trainee-list single-line-list">
 {% for member in site.data.alumni_visitors %}
-<li>{{ member.name }}</li>
+<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

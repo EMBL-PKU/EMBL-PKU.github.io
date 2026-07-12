@@ -1,9 +1,27 @@
+- name: Yang Wu
+  degree: phd
+  info: Lecturer, School of Engineering, Hangzhou Normal University
+
+- name: Chunfang Deng
+  degree: phd
+  info: Specially Appointed Associate Researcher, Peking University Shenzhen Graduate School
+
+- name: Xuejiao Qiao
+  degree: phd
+  info: Specially Appointed Associate Researcher, Peking University Shenzhen Graduate School
+
+- name: Yanni Geng
+  degree: phd
+  info: Civil Service, Changsha, Hunan
+
 - name: Lanyue Liang
+  degree: mphil
   photo: student/lanyue.png
   duration: 2023-2026
   info: M.Phil. Student
 
 - name: Yiqun Wang
+  degree: mphil
   photo: student/yiqun.png
   duration: 2023-2026
   info: M.Phil. Student
