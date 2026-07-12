@@ -252,6 +252,15 @@ firstp {
   margin-bottom: 6px;
 }
 
+.mphil-alumni-list {
+  column-count: 2;
+  column-gap: 28px;
+}
+
+.mphil-alumni-list li {
+  break-inside: avoid;
+}
+
 @media (min-width: 768px) {
   .single-line-list li {
     white-space: nowrap;

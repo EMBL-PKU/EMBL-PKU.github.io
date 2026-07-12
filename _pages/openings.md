@@ -3,7 +3,7 @@ title: "PKU-EMBL Lab - Openings"
 layout: textlay
 excerpt: "Open positions at the PKU-EMBL Lab"
 sitemap: false
-permalink: /vacancies
+permalink: /vacancies/
 ---
 
 # Open Positions

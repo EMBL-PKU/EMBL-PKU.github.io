@@ -16,7 +16,7 @@ permalink: /team/
 
 The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.
 
-We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies" | relative_url }}">Openings page</a> for current opportunities.
+We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies/" | relative_url }}">Openings page</a> for current opportunities.
 
 <nav class="team-jump">
   Jump to
@@ -171,10 +171,22 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% if alumni_count > 0 %}
 <h2 id="alumni">Alumni</h2>
 
+{% assign postdoc_alumni = site.data.alumni_members | where: "degree", "postdoc" %}
 {% assign phd_alumni = site.data.alumni_members | where: "degree", "phd" %}
 {% assign mphil_alumni = site.data.alumni_members | where: "degree", "mphil" %}
 
 <div class="row alumni-columns">
+{% if postdoc_alumni.size > 0 %}
+<div class="col-sm-6 clearfix">
+<h4>Postdoctoral Alumni</h4>
+<ul class="former-trainee-list">
+{% for member in postdoc_alumni %}
+<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
 {% if phd_alumni.size > 0 %}
 <div class="col-sm-6 clearfix">
 <h4>Ph.D. Alumni</h4>
@@ -187,11 +199,11 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% endif %}
 
 {% if mphil_alumni.size > 0 %}
-<div class="col-sm-6 clearfix">
+<div class="col-sm-12 clearfix">
 <h4>M.Phil. Alumni</h4>
-<ul class="former-trainee-list">
+<ul class="former-trainee-list mphil-alumni-list">
 {% for member in mphil_alumni %}
-<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
+<li>{{ member.name }}</li>
 {% endfor %}
 </ul>
 </div>
@@ -202,13 +214,28 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% if former_total_count > 0 %}
 <h2 id="former-trainees">Visiting Students</h2>
 
+{% assign intern_students = site.data.alumni_visitors | where: "info", "Intern Student" %}
+{% assign exchange_students = site.data.alumni_visitors | where: "info", "Exchange Student" %}
+
 <div class="row">
 
-{% if former_visiting_count > 0 %}
-<div class="col-sm-12 clearfix">
+{% if exchange_students.size > 0 %}
+<div class="col-sm-6 clearfix">
+<h4>Exchange Students</h4>
 <ul class="former-trainee-list single-line-list">
-{% for member in site.data.alumni_visitors %}
-<li>{{ member.name }}{% if member.info %}, {{ member.info }}{% endif %}{% if member.duration %}, {{ member.duration }}{% endif %}</li>
+{% for member in exchange_students %}
+<li>{{ member.name }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if intern_students.size > 0 %}
+<div class="col-sm-6 clearfix">
+<h4>Intern Students</h4>
+<ul class="former-trainee-list single-line-list">
+{% for member in intern_students %}
+<li>{{ member.name }}</li>
 {% endfor %}
 </ul>
 </div>
