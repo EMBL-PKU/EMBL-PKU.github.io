@@ -94,27 +94,31 @@
   photo: dingyan.jpg
   info: M.Phil. Student, entering September 2026
   email:
-  number_educ: 2
-  education1: 2022-2026, B.S. Environmental Science, Peking University
-  education2: 2022-2026, B.S. Life Science, Peking University
+  number_educ: 3
+  education1: 2026-present, M.Phil. Student, School of AI for Science, Peking University
+  education2: 2022-2026, B.S. Environmental Science, Peking University
+  education3: 2022-2026, B.S. Life Science, Peking University
 
 - name: Yujun Wu
   photo: yujun.png
   info: M.Phil. Student, entering September 2026
   email:
-  number_educ: 1
-  education1: 2022-2026, BEng. Artificial Intelligence, Huazhong Agricultural University
+  number_educ: 2
+  education1: 2026-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education2: 2022-2026, BEng. Artificial Intelligence, Huazhong Agricultural University
 
 - name: Haomei Li
   photo: haomeili.jpg
   info: M.Phil. Student, entering September 2026
   email:
-  number_educ: 1
-  education1: 2022-2026, B.S. Life Science, Shandong University
+  number_educ: 2
+  education1: 2026-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education2: 2022-2026, B.S. Life Science, Shandong University
 
 - name: Chunying Zheng
   photo: chunying.jpg
   info: M.Phil. Student, entering September 2026
   email:
-  number_educ: 1
-  education1: 2022-2026, BEng. Environmental Engineering, South China Normal University
+  number_educ: 2
+  education1: 2026-present, M.Phil. Student, School of Environment and Energy, Peking University
+  education2: 2022-2026, BEng. Environmental Engineering, South China Normal University

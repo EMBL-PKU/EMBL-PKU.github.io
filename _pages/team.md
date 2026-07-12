@@ -201,11 +201,27 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% if mphil_alumni.size > 0 %}
 <div class="col-sm-12 clearfix">
 <h4>M.Phil. Alumni</h4>
-<ul class="former-trainee-list mphil-alumni-list">
+{% assign mphil_split = mphil_alumni.size | plus: 1 | divided_by: 2 %}
+<div class="row mphil-alumni-columns">
+<div class="col-sm-6 clearfix">
+<ul class="former-trainee-list">
 {% for member in mphil_alumni %}
+{% if forloop.index0 < mphil_split %}
 <li>{{ member.name }}</li>
+{% endif %}
 {% endfor %}
 </ul>
+</div>
+<div class="col-sm-6 clearfix">
+<ul class="former-trainee-list">
+{% for member in mphil_alumni %}
+{% unless forloop.index0 < mphil_split %}
+<li>{{ member.name }}</li>
+{% endunless %}
+{% endfor %}
+</ul>
+</div>
+</div>
 </div>
 {% endif %}
 </div>
