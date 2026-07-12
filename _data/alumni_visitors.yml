@@ -1,7 +1,3 @@
-- name: Jiaming Zheng
-  info: Intern Student
-  duration: Autumn 2025-present
-
 - name: Qiming Gao
   info: Intern Student
   duration: Autumn 2025-present
@@ -10,11 +6,15 @@
   info: Intern Student
   duration: Autumn 2025-Spring 2026
 
-- name: Xiao Yao
-  info: Exchange Student
+- name: Jiaming Zheng
+  info: Intern Student
+  duration: Autumn 2025-present
 
 - name: Chunfang Jia
   info: Exchange Student
 
 - name: Anteng Luo
+  info: Exchange Student
+
+- name: Xiao Yao
   info: Exchange Student

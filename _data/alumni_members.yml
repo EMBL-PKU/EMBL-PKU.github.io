@@ -23,40 +23,7 @@
   degree: phd
   info: Civil Service, Changsha, Hunan
 
-- name: Lanyue Liang
-  degree: mphil
-  photo: student/lanyue.png
-  duration: 2023-2026
-  info: M.Phil. Student
-
-- name: Yiqun Wang
-  degree: mphil
-  photo: student/yiqun.png
-  duration: 2023-2026
-  info: M.Phil. Student
-
-- name: Boya Zhang
-  degree: mphil
-
-- name: Liyu Zhang
-  degree: mphil
-
-- name: Siyu Mei
-  degree: mphil
-
-- name: Xue Zhang
-  degree: mphil
-
-- name: Ciqin Yao
-  degree: mphil
-
-- name: Jia Su
-  degree: mphil
-
-- name: Rong Mu
-  degree: mphil
-
-- name: Yichi Zhang
+- name: Mengyang An
   degree: mphil
 
 - name: Xiaoqian Deng
@@ -65,31 +32,64 @@
 - name: Wenbo Fan
   degree: mphil
 
-- name: Mengyang An
-  degree: mphil
-
 - name: Chenkun Fu
-  degree: mphil
-
-- name: Zhishan Huang
-  degree: mphil
-
-- name: Yi Liu
-  degree: mphil
-
-- name: Yumeng Li
   degree: mphil
 
 - name: Shuhang He
   degree: mphil
 
+- name: Zhishan Huang
+  degree: mphil
+
+- name: Yumeng Li
+  degree: mphil
+
+- name: Lanyue Liang
+  degree: mphil
+  photo: student/lanyue.png
+  duration: 2023-2026
+  info: M.Phil. Student
+
+- name: Yi Liu
+  degree: mphil
+
+- name: Siyu Mei
+  degree: mphil
+
+- name: Rong Mu
+  degree: mphil
+
+- name: Jia Su
+  degree: mphil
+
+- name: Yiqun Wang
+  degree: mphil
+  photo: student/yiqun.png
+  duration: 2023-2026
+  info: M.Phil. Student
+
+- name: Ciqin Yao
+  degree: mphil
+
+- name: Boya Zhang
+  degree: mphil
+
+- name: Liyu Zhang
+  degree: mphil
+
 - name: Qing Zhang
   degree: mphil
 
-- name: Yuanyuan Zhu
+- name: Xue Zhang
+  degree: mphil
+
+- name: Yichi Zhang
   degree: mphil
 
 - name: Sihan Zheng
+  degree: mphil
+
+- name: Yuanyuan Zhu
   degree: mphil
 
 # - name: Gijsbert Verdoes
