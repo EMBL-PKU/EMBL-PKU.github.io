@@ -10,7 +10,7 @@ permalink: /vacancies/
 
 The **PKU-EMBL Lab** welcomes motivated students and early-career researchers interested in **microbial dark matter, AI for life science, environmental microbiome biotechnology, and genome-resolved bioinformatics**.
 
-We consider applications on a rolling basis for **visiting students, research assistants, master's students, Ph.D. students, and postdoctoral researchers**, subject to project fit, supervision capacity, and available support.
+We consider applications on a rolling basis for **visiting students, research assistants, M.Phil. students, Ph.D. students, and postdoctoral researchers**, subject to project fit, supervision capacity, and available support.
 
 ## Research Areas
 
@@ -25,7 +25,7 @@ Current and upcoming projects include:
 ## Positions
 
 **Graduate students**
-Applicants interested in master's or Ph.D. training should have a strong academic record and clear motivation for interdisciplinary research in microbiome science, bioinformatics, environmental engineering, computer science, or related fields.
+Applicants interested in M.Phil. or Ph.D. training should have a strong academic record and clear motivation for interdisciplinary research in microbiome science, bioinformatics, environmental engineering, computer science, or related fields.
 
 **Postdoctoral researchers**
 Postdoctoral applicants are expected to have a strong research track record, the ability to lead independent projects, and interest in developing high-impact work at the interface of microbiology, computation, and biotechnology.
@@ -69,7 +69,7 @@ Please email:
 
 <p class="subject-line"><span>Suggested subject line:</span><code>[Position Type] Name - University - Major - Research Interest</code></p>
 
-Examples of position type include `Visiting Student`, `Research Assistant`, `Master's Applicant`, `Ph.D. Applicant`, and `Postdoc`.
+Examples of position type include `Visiting Student`, `Research Assistant`, `M.Phil. Applicant`, `Ph.D. Applicant`, and `Postdoc`.
 
 ---
 

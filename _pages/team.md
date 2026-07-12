@@ -16,7 +16,7 @@ permalink: /team/
 
 The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.
 
-We welcome inquiries from prospective **master's students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies/" | relative_url }}">Openings page</a> for current opportunities.
+We welcome inquiries from prospective **M.Phil. students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies/" | relative_url }}">Openings page</a> for current opportunities.
 
 <nav class="team-jump">
   Jump to
@@ -39,7 +39,9 @@ We welcome inquiries from prospective **master's students, Ph.D. students, postd
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  {% if member.photo %}
   <img src="{{ "/images/teampic/staff/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
