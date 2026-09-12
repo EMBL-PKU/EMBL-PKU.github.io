@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-
-<div class="home-shell col-sm-12">
+<div class="home-shell">
   <section class="home-hero">
     <div class="home-hero-inner">
-      <p class="home-eyebrow">Peking University | School of Environment and Energy</p>
+      <p class="home-eyebrow">Peking University &middot; School of Environment and Energy</p>
       <h1>PKU-EMBL Lab</h1>
       <p class="home-subtitle">
         Environmental Microbiome Biotechnology Lab<br />
@@ -22,8 +21,5 @@ layout: default
     </div>
   </section>
 
-  <div class="home-body">
-    <main id="homeid" class="home-page">{{ content }}</main>
-    <aside id="newsid" class="home-news">{% include news.html %}</aside>
-  </div>
+  {{ content }}
 </div>

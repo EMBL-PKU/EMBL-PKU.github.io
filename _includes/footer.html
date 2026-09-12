@@ -2,14 +2,12 @@
   <div class="panel-footer">
     <div class="container-fluid">
       <div class="row footer-content">
-        <div class="col-sm-7 footer-about">
-          <p class="footer-brand">&copy; PKU-EMBL Lab</p>
+        <div class="col-sm-5 footer-about">
+          <p class="footer-brand">PKU-EMBL Lab</p>
           <p>
-            <a href="https://see.pkusz.edu.cn/"
-              >School of Environment and Energy</a
-            ><br />
-            <a href="https://english.pkusz.edu.cn">Shenzhen Graduate School</a
-            ><br />
+            Environmental Microbiome Biotechnology Lab<br />
+            <a href="https://see.pkusz.edu.cn/">School of Environment and Energy</a><br />
+            <a href="https://english.pkusz.edu.cn">Shenzhen Graduate School</a><br />
             <a href="https://www.pku.edu.cn/">Peking University</a>
           </p>
           <p class="footer-credit">
@@ -19,7 +17,19 @@
           </p>
         </div>
 
-        <div class="col-sm-5 footer-contact">
+        <div class="col-sm-3 footer-explore">
+          <p class="footer-heading">Explore</p>
+          <p>
+            <a href="{{ "/research/" | relative_url }}">Research</a><br />
+            <a href="{{ "/publications/" | relative_url }}">Publications</a><br />
+            <a href="{{ "/team/" | relative_url }}">Team</a><br />
+            <a href="{{ "/software/" | relative_url }}">Software</a><br />
+            <a href="{{ "/courses/" | relative_url }}">Courses</a><br />
+            <a href="{{ "/vacancies/" | relative_url }}">Openings</a>
+          </p>
+        </div>
+
+        <div class="col-sm-4 footer-contact">
           <p class="footer-heading">Contact</p>
           <p>
             Room 204, Building E<br />
@@ -34,6 +44,6 @@
   </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/js/bootstrap.min.js" | relative_url }}"></script>
 <script src="{{ "/js/github-stars.js" | relative_url }}"></script>

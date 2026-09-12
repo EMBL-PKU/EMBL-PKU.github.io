@@ -1,0 +1,30 @@
+{% assign members = include.members %}
+{% assign photodir = include.photodir %}
+<div class="people-grid">
+{% for member in members %}
+<article class="person-card">
+{% if member.photo %}
+<img class="person-photo" loading="lazy" src="{{ "/images/teampic/" | append: photodir | append: "/" | append: member.photo | relative_url }}" alt="Photo of {{ member.name | strip_html }}" />
+{% else %}
+<div class="person-photo-placeholder" aria-hidden="true">{{ member.name | strip_html | truncate: 1, "" }}</div>
+{% endif %}
+<div class="person-body">
+<h4 class="person-name">{{ member.name }}</h4>
+{% if member.info %}
+<p class="person-role">{{ member.info }}</p>
+{% endif %}
+{% if member.number_educ %}
+<ul class="person-education">
+{% for i in (1..member.number_educ) %}
+{% assign edukey = 'education' | append: i %}
+{% assign edu = member[edukey] %}
+{% if edu %}
+<li>{{ edu }}</li>
+{% endif %}
+{% endfor %}
+</ul>
+{% endif %}
+</div>
+</article>
+{% endfor %}
+</div>

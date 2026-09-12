@@ -14,161 +14,25 @@ permalink: /team/
 {% assign former_postdoc_count = site.data.alumni_bsc | size %}
 {% assign former_total_count = former_visiting_count | plus: former_degree_count | plus: former_postdoc_count %}
 
-The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.
+<p class="team-lead">The PKU-EMBL Lab brings together researchers working across **environmental microbiology, bioinformatics, artificial intelligence, and biotechnology**. Our team includes faculty, research staff, and graduate students with backgrounds spanning biology, environmental engineering, computer science, and quantitative disciplines.</p>
 
-We welcome inquiries from prospective **M.Phil. students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies/" | relative_url }}">Openings page</a> for current opportunities.
+<p class="team-lead">We welcome inquiries from prospective **M.Phil. students, Ph.D. students, postdoctoral researchers, visiting students, and research interns**. Please see our <a href="{{ "/vacancies/" | relative_url }}">Openings page</a> for current opportunities.</p>
 
-<nav class="team-jump">
-  Jump to
-  <a href="#faculty-and-research-staff">faculty and research staff</a>,
-  <a href="#graduate-students">graduate students</a>{% if alumni_count > 0 %},
-  <a href="#alumni">alumni</a>{% endif %}{% if former_total_count > 0 %},
-  <a href="#former-trainees">visiting students</a>{% endif %}.
+<nav class="team-jump" aria-label="Team page sections">
+  <span>Jump to</span>
+  <a href="#faculty-and-research-staff">Faculty &amp; Research Staff</a>
+  <a href="#graduate-students">Graduate Students</a>{% if alumni_count > 0 %}
+  <a href="#alumni">Alumni</a>{% endif %}{% if former_total_count > 0 %}
+  <a href="#former-trainees">Visiting Students</a>{% endif %}
 </nav>
 
 <h2 id="faculty-and-research-staff">Faculty and Research Staff</h2>
 
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  {% if member.photo %}
-  <img src="{{ "/images/teampic/staff/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
-  {% endif %}
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 5 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
+{% include people.html members=site.data.team_members photodir="staff" %}
 
 <h2 id="graduate-students">Graduate Students</h2>
 
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ "/images/teampic/student/" | append: member.photo | relative_url }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 5 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
+{% include people.html members=site.data.students photodir="student" %}
 
 {% if alumni_count > 0 %}
 <h2 id="alumni">Alumni</h2>
@@ -283,6 +147,3 @@ We welcome inquiries from prospective **M.Phil. students, Ph.D. students, postdo
 
 </div>
 {% endif %}
-
-<!-- ## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->

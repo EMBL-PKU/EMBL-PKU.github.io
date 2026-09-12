@@ -1,39 +1,39 @@
-- title: "BASALT refines binning from metagenomic data and increases resolution of genome-resolved metagenomic analysis"
-  authors: Z Qiu#, L Yuan, C Lian, B Lin, J Chen, R Mu, X Qiao, L Zhang, Z Xu, Lu Fan, Yunzeng Zhang, Shanquan Wang, Junyi Li, Huiluo Cao, Bing Li, Baowei Chen, Chi Song, Yongxin Liu, Lili Shi, Yonghong Tian, Jinren Ni, Tong Zhang, Jizhong Zhou, Wei-Qin Zhuang, K Yu#*
-  link:
-    url: https://www.nature.com/articles/s41467-024-46539-7
-    display: "Nature Communications, 2024, 15: 2179"
-  highlight: 1
-
-- title: "Increased replication rates of dissimilatory nitrogen-reducing bacteria leads to decreased anammox reactor performance"
-  authors: R Keren#, J Lawrence#, W Zhuang, D Jenkins, J Banfield, L Alvarez-Cohen, L Zhou*, K Yu*
-  link:
-    url: https://link.springer.com/article/10.1186/s40168-020-0786-3
-    display: "Microbiome, 2020, 8: 6"
-  highlight: 1
-
-- title: "An integrated meta-omics approach reveals substrates involved in synergistic interactions in a bisphenol A (BPA)-degrading microbial community"
-  authors: K Yu*#, S Yi#, B Li, F Guo, X Peng, Z Wang, Y Wu, L Alvarez-Cohen and T Zhang*
-  link:
-    url: https://link.springer.com/article/10.1186/s40168-019-0634-5
-    display: "Microbiome, 2019, 7: 16"
-  highlight: 1
-
-- title: "A mixed blessing of influent leachate microbes in downstream biotreatment systems of a full-scale landfill leachate treatment plant"
-  authors: C Deng#, T Chen#, Z Qiu, H Zhou, B Li, Y Zhang, X Xu, CA Lian, X Qiao, K Yu*
-  link:
-    url: https://www.sciencedirect.com/science/article/abs/pii/S0043135424002124
-    display: "Water Research, 2024, 253: 121310"
-  highlight: 1
-
+# Representative publications, newest first.
+# Notation: # equal contribution, * corresponding author.
 - title: "Nitrite impairs bioreactor performance due to decreased replication of Candidatus Brocadia sapporoensis by unbalanced energy allocation"
+  year: 2025
   authors: X Qiao#, L Zhang, Z Qiu, Y Wu, C Deng, Y Geng, Y Zhang, Y Yan, B Li, LJ Zhang, W Zhuang, K Yu*
   link:
     url: https://www.sciencedirect.com/science/article/abs/pii/S0043135425007158
     display: "Water Research, 2025, 283: 123806"
   highlight: 1
 
+- title: "Self-adaptation of tolerant microalgae-bacterial consortia in landfill leachate: Simultaneous achievement of efficient nitrogen removal and value-added utilization"
+  year: 2025
+  authors: Y Geng#, C Lian, L Yang, S Pavlostathis, Z Qiu, X Qiao, Z Xiong, N Dong, J Hu, X Luo, K Yu*
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1385894724104032
+    display: "Chemical Engineering Journal, 2025, 504: 158912"
+  highlight: 1
+
+- title: "BASALT refines binning from metagenomic data and increases resolution of genome-resolved metagenomic analysis"
+  year: 2024
+  authors: Z Qiu#, L Yuan, C Lian, B Lin, J Chen, R Mu, X Qiao, L Zhang, Z Xu, Lu Fan, Yunzeng Zhang, Shanquan Wang, Junyi Li, Huiluo Cao, Bing Li, Baowei Chen, Chi Song, Yongxin Liu, Lili Shi, Yonghong Tian, Jinren Ni, Tong Zhang, Jizhong Zhou, Wei-Qin Zhuang, K Yu#*
+  link:
+    url: https://www.nature.com/articles/s41467-024-46539-7
+    display: "Nature Communications, 2024, 15: 2179"
+  highlight: 1
+
+- title: "A mixed blessing of influent leachate microbes in downstream biotreatment systems of a full-scale landfill leachate treatment plant"
+  year: 2024
+  authors: C Deng#, T Chen#, Z Qiu, H Zhou, B Li, Y Zhang, X Xu, CA Lian, X Qiao, K Yu*
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0043135424002124
+    display: "Water Research, 2024, 253: 121310"
+  highlight: 1
+
 - title: "Bidirectional enhancement of nitrogen removal by indigenous synergetic microalgal-bacterial consortia in harsh low-C/N wastewater"
+  year: 2024
   authors: Y Geng#, Z Xiong, L Yang*, CA Lian, S Pavlostathis, Z Qiu, H Chen, Q Luo, Y Liu, Z Liu, P Shao, J Zou, H Jiang, S Luo, K Yu*, X Luo*
   link:
     url: https://pubs.acs.org/doi/10.1021/acs.est.3c10322
@@ -41,6 +41,7 @@
   highlight: 1
 
 - title: "Large scale exploration reveals rare taxa as key members shaping microbial assembly in alkaline lake sediments"
+  year: 2024
   authors: Z Qiu#, S He#, C Lian, Q Zhang, X Qiao, C Yao, R Mu, L Wang, X Cao, Y Yan, K Yu*
   link:
     url: https://www.nature.com/articles/s41522-024-00537-1
@@ -48,22 +49,33 @@
   highlight: 1
 
 - title: "An integrated meta-omics approach reveals the different response mechanisms of two anammox bacteria towards fluoroquinolone antibiotics"
+  year: 2024
   authors: X Qiao#, L Ding, F Fang, C Fu, R Wei, Y Chen, S Zheng, X Wang, Y Yan, K Yang, N Xu, H Tao, K Yu*, L Zhang*
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0160412024000916
     display: "Environment International, 2024, 185: 108505"
   highlight: 1
 
-- title: "Self-adaptation of tolerant microalgae-bacterial consortia in landfill leachate: Simultaneous achievement of efficient nitrogen removal and value-added utilization"
-  authors: Y Geng#, C Lian, L Yang, S Pavlostathis, Z Qiu, X Qiao, Z Xiong, N Dong, J Hu, X Luo, K Yu*
-  link:
-    url: https://www.sciencedirect.com/science/article/abs/pii/S1385894724104032
-    display: "Chemical Engineering Journal, 2025, 504: 158912"
-  highlight: 1
-
 - title: "Unravelling biosynthesis and biodegradation potentials of microbial dark matters in hypersaline lakes"
+  year: 2024
   authors: Z Qiu#, Y Zhu, Q Zhang, X Qiao, R Mu, Z Xu, Y Yan, F Wang, T Zhang, K Yu*
   link:
     url: https://www.sciencedirect.com/science/article/pii/S2666498423001242
     display: "Environmental Science and Ecotechnology, 2024, 20: 100359"
+  highlight: 1
+
+- title: "Increased replication rates of dissimilatory nitrogen-reducing bacteria leads to decreased anammox reactor performance"
+  year: 2020
+  authors: R Keren#, J Lawrence#, W Zhuang, D Jenkins, J Banfield, L Alvarez-Cohen, L Zhou*, K Yu*
+  link:
+    url: https://link.springer.com/article/10.1186/s40168-020-0786-3
+    display: "Microbiome, 2020, 8: 6"
+  highlight: 1
+
+- title: "An integrated meta-omics approach reveals substrates involved in synergistic interactions in a bisphenol A (BPA)-degrading microbial community"
+  year: 2019
+  authors: K Yu*#, S Yi#, B Li, F Guo, X Peng, Z Wang, Y Wu, L Alvarez-Cohen and T Zhang*
+  link:
+    url: https://link.springer.com/article/10.1186/s40168-019-0634-5
+    display: "Microbiome, 2019, 7: 16"
   highlight: 1
