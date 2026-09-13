@@ -17,7 +17,7 @@ permalink: /zh/team/
 
 <p class="team-lead">PKU-EMBL 实验室汇聚了来自**环境微生物学、生物信息学、人工智能与生物技术**等领域的研究人员，团队成员背景涵盖生物学、环境工程、计算机科学与定量学科。</p>
 
-<p class="team-lead">我们长期招收**硕士生、博士生、博士后、访问学生与科研实习生**，请查看<a href="{{ "/zh/vacancies/" | relative_url }}">招生信息</a>了解最新岗位。</p>
+<p class="team-lead">我们长期招收**博士研究生、硕士研究生、博士后、联合培养学生、访问学生与科研实习生**，请查看<a href="{{ "/zh/vacancies/" | relative_url }}">招生信息</a>了解最新岗位。</p>
 
 <nav class="team-jump" aria-label="团队页面导航">
   <span>跳转到</span>
