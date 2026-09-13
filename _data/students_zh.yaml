@@ -1,0 +1,124 @@
+- name: Jincheng Hu
+  photo: jincheng.jpg
+  info: 博士研究生（2021 级）
+  email:
+  number_educ: 1
+  education1: 2021至今 北京大学环境与能源学院，博士研究生
+
+- name: Na Wang
+  photo: nawang.jpg
+  info: 博士研究生（2022 级）
+  email:
+  number_educ: 1
+  education1: 2022至今 中国科学院大学，博士研究生
+
+- name: Nan Dong
+  photo: dongnan.jpg
+  info: 博士研究生（2024 级）
+  email:
+  number_educ: 2
+  education1: 2024至今 北京大学环境与能源学院，博士研究生
+  education2: 2021-2024 深圳大学，环境工程硕士
+
+- name: Lin Cheng
+  photo: lincheng.jpg
+  info: 博士研究生（2025 级）
+  email:
+  number_educ: 1
+  education1: 2025至今 北京大学环境与能源学院，博士研究生
+
+- name: Runzhi Cao
+  photo: runzhi.jpg
+  info: 博士研究生（2024 级）
+  email:
+  number_educ: 1
+  education1: 2024至今 北京大学环境与能源学院，博士研究生
+
+- name: Chang Wen
+  photo: changwen.jpg
+  info: 硕士研究生（2024 级）
+  email:
+  number_educ: 2
+  education1: 2024至今 北京大学环境与能源学院，硕士研究生
+  education2: 2020-2024 厦门大学环境与生态学院，环境工程工学士
+
+- name: Xinya Jiang
+  photo: xinya.jpg
+  info: 硕士研究生（2024 级）
+  email:
+  number_educ: 2
+  education1: 2024至今 北京大学环境与能源学院，硕士研究生
+  education2: 2020-2024 中国农业大学，环境工程工学士
+
+- name: Anjie Li
+  photo: anjie.jpg
+  info: 硕士研究生（2024 级）
+  email:
+  number_educ: 1
+  education1: 2024至今 北京大学环境与能源学院，硕士研究生
+
+- name: Huifen Zhu
+  photo: huifenzhu.jpg
+  info: 硕士研究生（2025 级）
+  email:
+  number_educ: 2
+  education1: 2025至今 北京大学环境与能源学院，硕士研究生
+  education2: 2021-2025 天津科技大学，生物工程工学士
+
+- name: Zhuolin Tong
+  photo: zhuolin.jpg
+  info: 硕士研究生（2025 级）
+  email:
+  number_educ: 2
+  education1: 2025至今 北京大学环境与能源学院，硕士研究生
+  education2: 2021-2025 湖北大学，生物科学理学士
+
+- name: Yingqi Ying
+  photo: yingyingqi.jpg
+  info: 硕士研究生（2025 级）
+  email:
+  number_educ: 2
+  education1: 2025至今 北京大学环境与能源学院，硕士研究生
+  education2: 2021-2025 中国矿业大学，环境科学理学士
+
+- name: <a href="http://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a>
+  photo: elijah.jpg
+  info: 硕士研究生（2025 级）
+  email: zrjiang@stu.pku.edu.cn
+  number_educ: 3
+  education1: 2025至今 北京大学，环境工程硕士
+  education2: 2021-2025 赫瑞-瓦特大学，机器人学工学士
+  education3: 2021-2025 中国海洋大学，计算机科学工学士
+
+- name: Dingyan Zhang
+  photo: dingyan.jpg
+  info: 硕士研究生（2026 级，拟入学）
+  email:
+  number_educ: 3
+  education1: 2026至今 北京大学 AI for Science 学院，硕士研究生
+  education2: 2022-2026 北京大学，环境科学理学士
+  education3: 2022-2026 北京大学，生命科学理学士
+
+- name: Yujun Wu
+  photo: yujun.png
+  info: 硕士研究生（2026 级，拟入学）
+  email:
+  number_educ: 2
+  education1: 2026至今 北京大学环境与能源学院，硕士研究生
+  education2: 2022-2026 华中农业大学，人工智能工学士
+
+- name: Haomei Li
+  photo: haomeili.jpg
+  info: 硕士研究生（2026 级，拟入学）
+  email:
+  number_educ: 2
+  education1: 2026至今 北京大学环境与能源学院，硕士研究生
+  education2: 2022-2026 山东大学，生命科学理学士
+
+- name: Chunying Zheng
+  photo: chunying.jpg
+  info: 硕士研究生（2026 级，拟入学）
+  email:
+  number_educ: 2
+  education1: 2026至今 北京大学环境与能源学院，硕士研究生
+  education2: 2022-2026 华南师范大学，环境工程工学士

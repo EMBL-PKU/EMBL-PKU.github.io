@@ -10,18 +10,22 @@
 - name: Yang Wu
   degree: phd
   info: Lecturer, School of Engineering, Hangzhou Normal University
+  info_zh: 杭州师范大学工程学院，讲师
 
 - name: Chunfang Deng
   degree: phd
   info: Specially Appointed Associate Researcher, Peking University Shenzhen Graduate School
+  info_zh: 北京大学深圳研究生院，特聘副研究员
 
 - name: Xuejiao Qiao
   degree: phd
   info: Specially Appointed Associate Researcher, Peking University Shenzhen Graduate School
+  info_zh: 北京大学深圳研究生院，特聘副研究员
 
 - name: Yanni Geng
   degree: phd
   info: Civil Service, Changsha, Hunan
+  info_zh: 湖南长沙，公务员
 
 - name: Mengyang An
   degree: mphil
@@ -49,6 +53,7 @@
   photo: student/lanyue.png
   duration: 2023-2026
   info: M.Phil. Student
+  info_zh: 硕士研究生
 
 - name: Yi Liu
   degree: mphil
@@ -67,6 +72,7 @@
   photo: student/yiqun.png
   duration: 2023-2026
   info: M.Phil. Student
+  info_zh: 硕士研究生
 
 - name: Ciqin Yao
   degree: mphil

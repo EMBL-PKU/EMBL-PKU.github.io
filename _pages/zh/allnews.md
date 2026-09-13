@@ -13,7 +13,7 @@ PKU-EMBL 实验室的最新动态，包括科研进展、团队公告与网站�
 
 {% for article in site.data.news %}
 <div class="news-item-page">
-  <time>{{ article.date }}</time>
+  <time>{% if article.date_zh %}{{ article.date_zh }}{% else %}{{ article.date }}{% endif %}</time>
   <p>{% if article.headline_zh %}{{ article.headline_zh }}{% else %}{{ article.headline }}{% endif %}</p>
 </div>
 {% endfor %}

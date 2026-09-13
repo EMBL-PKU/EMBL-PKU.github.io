@@ -10,8 +10,8 @@
 <div class="news-grid">
   {% for article in site.data.news limit:6 %}
   <article class="news-card">
-    <time>{{ article.date }}</time>
-    <p>{% if article.headline_zh %}{{ article.headline_zh | markdownify }}{% else %}{{ article.headline | markdownify }}{% endif %}</p>
+    <time>{% if page.lang == 'zh' and article.date_zh %}{{ article.date_zh }}{% else %}{{ article.date }}{% endif %}</time>
+    <p>{% if page.lang == 'zh' and article.headline_zh %}{{ article.headline_zh | markdownify }}{% else %}{{ article.headline | markdownify }}{% endif %}</p>
   </article>
   {% endfor %}
 </div>

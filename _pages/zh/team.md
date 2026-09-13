@@ -29,11 +29,11 @@ permalink: /zh/team/
 
 <h2 id="faculty-and-research-staff">教师与研究人员</h2>
 
-{% include people.html members=site.data.team_members photodir="staff" %}
+{% include people.html members=site.data.team_members_zh photodir="staff" %}
 
 <h2 id="graduate-students">研究生</h2>
 
-{% include people.html members=site.data.students photodir="student" %}
+{% include people.html members=site.data.students_zh photodir="student" %}
 
 {% if alumni_count > 0 %}
 <h2 id="alumni">毕业生</h2>
@@ -48,7 +48,7 @@ permalink: /zh/team/
 <h4>已出站博士后</h4>
 <ul class="former-trainee-list">
 {% for member in postdoc_alumni %}
-<li>{{ member.name }}{% if member.info %}，{{ member.info }}{% endif %}{% if member.duration %}，{{ member.duration }}{% endif %}</li>
+<li>{{ member.name }}{% if member.info_zh %}，{{ member.info_zh }}{% elsif member.info %}，{{ member.info }}{% endif %}{% if member.duration %}，{{ member.duration }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -59,7 +59,7 @@ permalink: /zh/team/
 <h4>博士毕业生</h4>
 <ul class="former-trainee-list">
 {% for member in phd_alumni %}
-<li>{{ member.name }}{% if member.info %}，{{ member.info }}{% endif %}{% if member.duration %}，{{ member.duration }}{% endif %}</li>
+<li>{{ member.name }}{% if member.info_zh %}，{{ member.info_zh }}{% elsif member.info %}，{{ member.info }}{% endif %}{% if member.duration %}，{{ member.duration }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
