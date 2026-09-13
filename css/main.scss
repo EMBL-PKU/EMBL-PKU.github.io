@@ -1,9 +1,9 @@
 ---
 ---
 
-// Collapse the navbar into a hamburger below 992px so the desktop nav
+// Collapse the navbar into a hamburger below 1200px so the desktop nav
 // always fits on a single line
-$grid-float-breakpoint: 992px;
+$grid-float-breakpoint: 1200px;
 
 @import "bootstrap";
 
@@ -294,12 +294,6 @@ ol li {
 }
 
 // Language switch pill, pinned to the top-right corner of the navbar
-@media (min-width: 992px) {
-  .navbar-default .navbar-collapse .navbar-nav.navbar-right {
-    margin-right: 100px;
-  }
-}
-
 .lang-toggle {
   border: 1.5px solid rgba(255, 255, 255, .78);
   border-radius: 999px;
@@ -326,23 +320,42 @@ ol li {
   text-decoration: none;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: rgba(255, 255, 255, .14);
-}
+@media (min-width: 1200px) {
+  // Flex the header so brand and menu share one row and can never wrap
+  .navbar > .container-fluid {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
+  .navbar-header {
+    display: flex;
+    flex: 0 0 auto;
+  }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-collapse.collapse {
+    display: flex !important;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-left: 24px;
+    padding-right: 100px !important;
+  }
+
+  .navbar-nav.navbar-right {
+    display: flex;
+    float: none !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
   .navbar-default .navbar-nav > li > a {
     font-size: 12.5px;
-    letter-spacing: .05em;
-    padding-bottom: 22px;
+    letter-spacing: .04em;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 22px;
   }
 
   .navbar-default .navbar-nav > li > a::after {
@@ -353,7 +366,7 @@ ol li {
 
 // Below the desktop breakpoint the nav collapses behind the hamburger,
 // and the language pill stays pinned beside it
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .lang-toggle {
     right: 76px;
     top: 50%;
@@ -374,6 +387,16 @@ ol li {
   .navbar-default .navbar-nav > li > a::after {
     display: none;
   }
+}
+
+// Language switch pill, pinned to the top-right corner of the navbar
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(255, 255, 255, .14);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
 }
 
 /* ============================================================

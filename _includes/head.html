@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" href="{{ "/images/logo/pku-seal-512.png" | relative_url }}">
   <link rel="preload" href="{{ "/fonts/josefin-sans-var.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "/fonts/lato-400.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 {% if jekyll.environment == 'production' %}

@@ -14,6 +14,16 @@
         <span class="icon-bar"></span>
       </button>
 
+      {% if page.lang == 'zh' %}
+      <a class="navbar-brand" href="{{ "/zh/" | relative_url }}">
+        <img
+          class="navbar-logo"
+          src="{{ "/images/logo/pku-seal.svg" | relative_url }}"
+          alt="北京大学校徽"
+        />
+        <span>PKU-EMBL Lab</span>
+      </a>
+      {% else %}
       <a class="navbar-brand" href="{{ "/" | relative_url }}">
         <img
           class="navbar-logo"
@@ -22,18 +32,19 @@
         />
         <span>PKU-EMBL Lab</span>
       </a>
+      {% endif %}
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% if page.lang == 'zh' %}
-        <li><a href="{{ "/" | relative_url }}">首页</a></li>
-        <li><a href="{{ "/research/" | relative_url }}">研究方向</a></li>
-        <li><a href="{{ "/publications/" | relative_url }}">论文发表</a></li>
-        <li><a href="{{ "/team/" | relative_url }}">团队成员</a></li>
-        <li><a href="{{ "/software/" | relative_url }}">开源软件</a></li>
-        <li><a href="{{ "/courses/" | relative_url }}">课程教学</a></li>
-        <li><a href="{{ "/vacancies/" | relative_url }}">招生信息</a></li>
-        <li><a href="{{ "/pictures/" | relative_url }}">实验室影集</a></li>
+        <li><a href="{{ "/zh/" | relative_url }}">首页</a></li>
+        <li><a href="{{ "/zh/research/" | relative_url }}">研究方向</a></li>
+        <li><a href="{{ "/zh/publications/" | relative_url }}">论文发表</a></li>
+        <li><a href="{{ "/zh/team/" | relative_url }}">团队成员</a></li>
+        <li><a href="{{ "/zh/software/" | relative_url }}">开源软件</a></li>
+        <li><a href="{{ "/zh/courses/" | relative_url }}">课程教学</a></li>
+        <li><a href="{{ "/zh/vacancies/" | relative_url }}">招生信息</a></li>
+        <li><a href="{{ "/zh/pictures/" | relative_url }}">实验室影集</a></li>
         {% else %}
         <li><a href="{{ "/" | relative_url }}">Home</a></li>
         <li><a href="{{ "/research/" | relative_url }}">Research</a></li>
