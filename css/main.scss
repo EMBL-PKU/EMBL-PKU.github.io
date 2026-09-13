@@ -289,26 +289,37 @@ ol li {
   margin-bottom: 13px;
 }
 
-// Language switch pill (top-right)
-.navbar-default .navbar-nav > li.lang-switch > a {
-  border: 1.5px solid rgba(255, 255, 255, .75);
+// Language switch pill, pinned to the top-right corner of the navbar
+@media (min-width: 768px) {
+  .navbar-default .navbar-collapse .navbar-nav.navbar-right {
+    margin-right: 100px;
+  }
+}
+
+.lang-toggle {
+  border: 1.5px solid rgba(255, 255, 255, .78);
   border-radius: 999px;
   color: #ffffff;
+  font-family: $font-heading;
   font-size: 13px;
+  font-weight: 600;
   letter-spacing: .06em;
-  margin: 17px 0 17px 14px;
-  padding: 3px 16px !important;
+  line-height: 1.4;
+  padding: 4px 16px;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all .2s ease;
+  z-index: 1040;
 }
 
-.navbar-default .navbar-nav > li.lang-switch > a::after {
-  display: none;
-}
-
-.navbar-default .navbar-nav > li.lang-switch > a:hover,
-.navbar-default .navbar-nav > li.lang-switch > a:focus {
+.lang-toggle:hover,
+.lang-toggle:focus {
   background: #ffffff;
   border-color: #ffffff;
   color: $brand;
+  text-decoration: none;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -320,7 +331,29 @@ ol li {
   background-color: #ffffff;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12.5px;
+    letter-spacing: .05em;
+    padding-bottom: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 22px;
+  }
+
+  .navbar-default .navbar-nav > li > a::after {
+    left: 10px;
+    right: 10px;
+  }
+}
+
 @media (max-width: 767px) {
+  .lang-toggle {
+    right: 76px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .navbar-default .navbar-collapse {
     background: $brand;
     border-top: 1px solid rgba(255, 255, 255, .18);
