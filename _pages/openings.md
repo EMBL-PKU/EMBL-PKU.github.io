@@ -2,7 +2,6 @@
 title: "PKU-EMBL Lab - Openings"
 layout: textlay
 excerpt: "Openings at the PKU-EMBL Lab: Ph.D. students, master's students, postdocs, joint-training students, visiting scholars, and research interns"
-sitemap: false
 permalink: /vacancies/
 ---
 

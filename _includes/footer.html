@@ -81,6 +81,22 @@
   </div>
 </div>
 
+<button id="back-to-top" aria-label="Back to top" title="Top">&uarr;</button>
+
 <script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/js/bootstrap.min.js" | relative_url }}"></script>
 <script src="{{ "/js/github-stars.js" | relative_url }}"></script>
+<script>
+  (function () {
+    var button = document.getElementById('back-to-top');
+    if (!button) return;
+    var onScroll = function () {
+      button.classList.toggle('visible', window.scrollY > 400);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    button.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script>

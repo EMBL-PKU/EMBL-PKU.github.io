@@ -3,7 +3,6 @@ title: "PKU-EMBL 实验室 - 团队成员"
 layout: gridlay
 excerpt: "PKU-EMBL 实验室：团队成员"
 lang: zh
-sitemap: false
 permalink: /zh/team/
 ---
 

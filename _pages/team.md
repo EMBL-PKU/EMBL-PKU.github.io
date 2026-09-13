@@ -2,7 +2,6 @@
 title: "PKU-EMBL Lab - Team"
 layout: gridlay
 excerpt: "PKU-EMBL Lab: Team members"
-sitemap: false
 permalink: /team/
 ---
 

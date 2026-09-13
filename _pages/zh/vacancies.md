@@ -3,7 +3,6 @@ title: "PKU-EMBL 实验室 - 招生信息"
 layout: textlay
 excerpt: "PKU-EMBL 实验室招生：博士、推免硕士、博士后、联合培养、访问学者与科研实习生"
 lang: zh
-sitemap: false
 permalink: /zh/vacancies/
 ---
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://embl-pku.github.io/sitemap.xml

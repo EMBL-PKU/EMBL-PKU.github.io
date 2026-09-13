@@ -11,6 +11,11 @@
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
   <meta property="og:image" content="{{ "/images/hero/landscape-lake.jpg" | absolute_url }}">
+  <meta property="og:locale" content="{% if page.lang == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+  <meta property="og:locale:alternate" content="{% if page.lang == 'zh' %}en_US{% else %}zh_CN{% endif %}">
+  {% unless page.lang_switch == false %}
+  <link rel="alternate" hreflang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}" href="{% if page.lang == 'zh' %}{{ page.url | remove_first: '/zh' | absolute_url }}{% else %}{{ '/zh' | append: page.url | absolute_url }}{% endif %}">
+  {% endunless %}
   <link rel="icon" type="image/png" href="{{ "/images/logo/pku-seal-64.png" | relative_url }}">
   <link rel="apple-touch-icon" href="{{ "/images/logo/pku-seal-512.png" | relative_url }}">
   <link rel="preload" href="{{ "/fonts/josefin-sans-var.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
