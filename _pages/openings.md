@@ -65,15 +65,15 @@ Applicants should have strong molecular biology fundamentals and practical exper
 - **Internships:** high-quality internships are encouraged and fully supported with flexible arrangements
 - **Goal:** develop interdisciplinary researchers with international perspective, independent research ability, and the capacity to move discoveries from data and models to experimental validation and application
 
-<section class=”opening-apply” markdown=”1”>
+<section class="opening-apply" markdown="1">
 ## How to Apply
 
 Please email your **CV** to [`hwu202425@gmail.com`](mailto:hwu202425@gmail.com) and cc the lab supervisor at [`yuke.sz@pku.edu.cn`](mailto:yuke.sz@pku.edu.cn). A research proposal is optional.
 
 Please use the following format for both the email subject and attachment name:
 
-<p class=”subject-line”><span>Format:</span><code>[保研申请] 姓名-学校-专业-喜欢的研究方向</code></p>
+<p class="subject-line"><span>Format:</span><code>[Master's Application] Name-University-Major-Preferred Research Direction</code></p>
 
-You are also welcome to send a direct message introducing your background. We will respond to every inquiry. 中文招生信息请切换至页面右上角的“中文”版本。
+You are also welcome to send a direct message introducing your background. We will respond to every inquiry.
 </section>
 
