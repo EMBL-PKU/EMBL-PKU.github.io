@@ -1,0 +1,27 @@
+---
+title: "PKU-EMBL 实验室 - 论文发表"
+layout: gridlay
+excerpt: "PKU-EMBL 实验室 —— 论文发表"
+lang: zh
+sitemap: false
+permalink: /zh/publications/
+---
+
+<h1>论文发表</h1>
+
+<p>完整且持续更新的论文列表请见 <a href="https://scholar.google.com/citations?hl=en&amp;user=FunfWVAAAAAJ">Google Scholar</a>。以下为 PKU-EMBL 实验室及相关研究计划的代表性论文（论文信息保留英文原文）。</p>
+
+<p class="publication-note"><span>#</span> 共同第一作者。<span>*</span> 通讯作者。</p>
+
+<ol class="pub-list">
+{% for publi in site.data.publist %}
+  <li class="pub-item">
+    <span class="pub-year">{{ publi.year }}</span>
+    <div class="pub-body">
+      <p class="publication-title">{{ publi.title | escape }}</p>
+      <p class="pub-authors">{{ publi.authors | escape }}</p>
+      <a class="publication-link" href="{{ publi.link.url }}">{{ publi.link.display | escape }}</a>
+    </div>
+  </li>
+{% endfor %}
+</ol>

@@ -4,6 +4,19 @@
       <div class="row footer-content">
         <div class="col-sm-5 footer-about">
           <p class="footer-brand">PKU-EMBL Lab</p>
+          {% if page.lang == 'zh' %}
+          <p>
+            环境微生物生物技术实验室<br />
+            <a href="https://see.pkusz.edu.cn/">环境与能源学院</a><br />
+            <a href="https://english.pkusz.edu.cn">北京大学深圳研究生院</a><br />
+            <a href="https://www.pku.edu.cn/">北京大学</a>
+          </p>
+          <p class="footer-credit">
+            基于 <a href="https://jekyllrb.com/">Jekyll</a> 构建<br />
+            源码改编自
+            <a href="https://www.allanlab.org/">Allan Lab</a>
+          </p>
+          {% else %}
           <p>
             Environmental Microbiome Biotechnology Lab<br />
             <a href="https://see.pkusz.edu.cn/">School of Environment and Energy</a><br />
@@ -15,9 +28,21 @@
             Based on source code from the
             <a href="https://www.allanlab.org/">Allan Lab</a>
           </p>
+          {% endif %}
         </div>
 
         <div class="col-sm-3 footer-explore">
+          {% if page.lang == 'zh' %}
+          <p class="footer-heading">快速导航</p>
+          <p>
+            <a href="{{ "/research/" | relative_url }}">研究方向</a><br />
+            <a href="{{ "/publications/" | relative_url }}">论文发表</a><br />
+            <a href="{{ "/team/" | relative_url }}">团队成员</a><br />
+            <a href="{{ "/software/" | relative_url }}">开源软件</a><br />
+            <a href="{{ "/courses/" | relative_url }}">课程教学</a><br />
+            <a href="{{ "/vacancies/" | relative_url }}">招生信息</a>
+          </p>
+          {% else %}
           <p class="footer-heading">Explore</p>
           <p>
             <a href="{{ "/research/" | relative_url }}">Research</a><br />
@@ -27,16 +52,28 @@
             <a href="{{ "/courses/" | relative_url }}">Courses</a><br />
             <a href="{{ "/vacancies/" | relative_url }}">Openings</a>
           </p>
+          {% endif %}
         </div>
 
         <div class="col-sm-4 footer-contact">
+          {% if page.lang == 'zh' %}
+          <p class="footer-heading">联系我们</p>
+          {% else %}
           <p class="footer-heading">Contact</p>
+          {% endif %}
           <p>
+            {% if page.lang == 'zh' %}
+            北京大学环境与能源学院 E 座 204 室<br />
+            深圳市南山区大学城<br />
+            邮编 518055<br />
+            邮箱：<a href="mailto:yuke.sz@pku.edu.cn">yuke.sz@pku.edu.cn</a>
+            {% else %}
             Room 204, Building E<br />
             Peking University School of Environment and Energy<br />
             University Town of Shenzhen, Nanshan District<br />
             Shenzhen 518055, P.R. China<br />
             Email: <a href="mailto:yuke.sz@pku.edu.cn">yuke.sz@pku.edu.cn</a>
+            {% endif %}
           </p>
         </div>
       </div>
