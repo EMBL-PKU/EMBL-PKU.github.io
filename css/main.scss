@@ -740,6 +740,13 @@ ol li {
   margin-top: 12px;
 }
 
+// Anchor the GitHub line to the card bottom so cards with different
+// amounts of text keep their links aligned
+.software-card .github-link {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
 .github-link::before {
   background-image: url("../images/icons/github.svg");
   background-position: center;
