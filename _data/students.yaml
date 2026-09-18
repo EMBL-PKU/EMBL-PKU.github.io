@@ -34,6 +34,14 @@
   number_educ: 1
   education1: 2024-present, Ph.D. Candidate, School of Environment and Energy, Peking University
 
+- name: Yu Liu
+  photo: yuliu.jpg
+  info: Ph.D. Candidate, entered September 2026
+  email:
+  number_educ: 2
+  education1: 2026-present, Ph.D. Candidate, School of Marine Sciences, Sun Yat-sen University
+  education2: 2023-2026, M.Eng. Environmental Science and Engineering, Dalian University of Technology
+
 - name: Chang Wen
   photo: changwen.jpg
   info: M.Phil. Student, entered September 2024

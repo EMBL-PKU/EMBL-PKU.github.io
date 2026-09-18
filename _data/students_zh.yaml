@@ -34,6 +34,14 @@
   number_educ: 1
   education1: 2024至今 北京大学环境与能源学院，博士研究生
 
+- name: Yu Liu
+  photo: yuliu.jpg
+  info: 博士研究生（2026 级）
+  email:
+  number_educ: 2
+  education1: 2026至今 中山大学海洋科学学院，博士研究生
+  education2: 2023-2026 大连理工大学，环境科学与工程硕士
+
 - name: Chang Wen
   photo: changwen.jpg
   info: 硕士研究生（2024 级）
