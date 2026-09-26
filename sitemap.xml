@@ -5,12 +5,14 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ "/" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 {% for page in site.pages %}
 {% unless page.sitemap == false or page.url contains '404' %}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </url>
 {% endunless %}
 {% endfor %}

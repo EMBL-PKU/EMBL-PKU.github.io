@@ -1,3 +1,9 @@
+{% if page.lang == 'zh' %}
+<a class="sr-only sr-only-focusable" href="#main">跳到主要内容</a>
+{% else %}
+<a class="sr-only sr-only-focusable" href="#main">Skip to main content</a>
+{% endif %}
+
 <div class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -59,9 +65,9 @@
     </div>
     {% if page.lang_switch != false %}
     {% if page.lang == 'zh' %}
-    <a class="lang-toggle" href="{{ page.url | remove_first: '/zh' | relative_url }}" lang="en" hreflang="en">EN</a>
+    <a class="lang-toggle" href="{{ page.url | remove_first: '/zh' | relative_url }}" lang="en" hreflang="en" aria-label="Switch to English">EN</a>
     {% else %}
-    <a class="lang-toggle" href="{{ '/zh' | append: page.url | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a>
+    <a class="lang-toggle" href="{{ '/zh' | append: page.url | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="切换到中文">中文</a>
     {% endif %}
     {% endif %}
   </div>
