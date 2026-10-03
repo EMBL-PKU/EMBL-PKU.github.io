@@ -3,13 +3,8 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{{ "/" | absolute_url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
 {% for page in site.pages %}
-{% unless page.sitemap == false or page.url contains '404' %}
+{% unless page.sitemap == false or page.url contains '404' or page.url == '/sitemap.xml' or page.url == '/css/main.css' %}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>

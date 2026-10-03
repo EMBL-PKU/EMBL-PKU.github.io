@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "PKU-EMBL Lab at Peking University."
+excerpt: "PKU-EMBL Lab at Peking University"
 permalink: /allnews.html
 ---
 

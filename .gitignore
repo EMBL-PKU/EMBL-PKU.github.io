@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.mimosa/
+.video_agent/
+.v2c/
+.zcode/

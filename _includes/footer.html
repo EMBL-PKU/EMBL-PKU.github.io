@@ -81,7 +81,11 @@
   </div>
 </div>
 
+{% if page.lang == 'zh' %}
+<button id="back-to-top" aria-label="回到顶部" title="顶部">&uarr;</button>
+{% else %}
 <button id="back-to-top" aria-label="Back to top" title="Top">&uarr;</button>
+{% endif %}
 
 <script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/js/bootstrap.min.js" | relative_url }}"></script>
