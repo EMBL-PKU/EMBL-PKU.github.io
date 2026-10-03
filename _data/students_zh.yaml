@@ -133,14 +133,21 @@
 
 - name: Yuanchao Ran
   photo: yuanchaoran.jpg
-  info: 研究生
+  info: 硕士研究生（预计 2027 年入学）
   email:
   number_educ: 1
-  education1: 2022至今 上海财经大学，计算机科学与技术工学士
+  education1: 2023-2027 上海财经大学，计算机科学与技术工学士
 
 - name: Yi Dang
   photo: yidang.jpg
-  info: 研究生
+  info: 硕士研究生（预计 2027 年入学）
   email:
   number_educ: 1
-  education1: 2022至今 武汉大学弘毅学堂，生物科学理学士
+  education1: 2023-2027 武汉大学弘毅学堂，生物科学理学士
+
+- name: Binghuang Zhu
+  photo: binghuangzhu.jpg
+  info: 硕士研究生（预计 2027 年入学）
+  email:
+  number_educ: 1
+  education1: 2023-2027 江南大学，生物技术理学士

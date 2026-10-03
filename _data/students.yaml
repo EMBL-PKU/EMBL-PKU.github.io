@@ -133,14 +133,21 @@
 
 - name: Yuanchao Ran
   photo: yuanchaoran.jpg
-  info: Graduate Student
+  info: M.Phil. Student, expected to enter September 2027
   email:
   number_educ: 1
-  education1: 2022-present, BEng. Computer Science and Technology, Shanghai University of Finance and Economics
+  education1: 2023-2027, BEng. Computer Science and Technology, Shanghai University of Finance and Economics
 
 - name: Yi Dang
   photo: yidang.jpg
-  info: Graduate Student
+  info: M.Phil. Student, expected to enter September 2027
   email:
   number_educ: 1
-  education1: 2022-present, B.S. Biological Science, Hongyi Honor College, Wuhan University
+  education1: 2023-2027, B.S. Biological Science, Hongyi Honor College, Wuhan University
+
+- name: Binghuang Zhu
+  photo: binghuangzhu.jpg
+  info: M.Phil. Student, expected to enter September 2027
+  email:
+  number_educ: 1
+  education1: 2023-2027, B.S. Biotechnology, Jiangnan University
