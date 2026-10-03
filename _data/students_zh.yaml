@@ -130,3 +130,17 @@
   number_educ: 2
   education1: 2026至今 北京大学环境与能源学院，硕士研究生
   education2: 2022-2026 华南师范大学，环境工程工学士
+
+- name: Yuanchao Ran
+  photo: yuanchaoran.jpg
+  info: 研究生
+  email:
+  number_educ: 1
+  education1: 2022至今 上海财经大学，计算机科学与技术工学士
+
+- name: Yi Dang
+  photo: yidang.jpg
+  info: 研究生
+  email:
+  number_educ: 1
+  education1: 2022至今 武汉大学弘毅学堂，生物科学理学士

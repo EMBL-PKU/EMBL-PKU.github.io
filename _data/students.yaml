@@ -130,3 +130,17 @@
   number_educ: 2
   education1: 2026-present, M.Phil. Student, School of Environment and Energy, Peking University
   education2: 2022-2026, BEng. Environmental Engineering, South China Normal University
+
+- name: Yuanchao Ran
+  photo: yuanchaoran.jpg
+  info: Graduate Student
+  email:
+  number_educ: 1
+  education1: 2022-present, BEng. Computer Science and Technology, Shanghai University of Finance and Economics
+
+- name: Yi Dang
+  photo: yidang.jpg
+  info: Graduate Student
+  email:
+  number_educ: 1
+  education1: 2022-present, B.S. Biological Science, Hongyi Honor College, Wuhan University
